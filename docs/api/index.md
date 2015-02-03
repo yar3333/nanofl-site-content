@@ -11,7 +11,7 @@ NanoFL classes:
 * [Player](#Player) - global store for CreateJS's stage and NanoFL's library and scene.
 * [SeamlessSoundLoop](#SeamlessSoundLoop) - helper to play background music without gaps.
 * [TextField](#TextField) - represent static and dynamic text on the canvas.
-* [TextRun](#TextRun) - represent static and dynamic text on the canvas.
+* [TextRun](#TextRun) - represent a same-formatted piece of text for TextField.
 
 
 <a name="Bitmap"></a>
@@ -140,6 +140,8 @@ This class represent a piece of text and it's format. Used in TextField to store
 * `family` - font family (like "Courier New")
 * `fillColor` - fill color ("red", "#ff0000", "rgba(255, 0, 0, 0.5)")
 * `size` - font size
+* `strokeColor` - stroke color (used only if strokeSize > 0)
+* `strokeSize` - stroke thickness (zero for regular text)
 * `style` - font style ("", "bold", "italic" or "bold italic")
 
 ### Methods
