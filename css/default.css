@@ -1,0 +1,114 @@
+body { padding: 0; margin: 0; font-family: Tahoma; }
+div,table,tr,td,img { padding: 0; border: 0; border-collapse: collapse; }
+form { padding: 0; margin: 0; border-collapse: collapse; border:0; }
+
+ol,ul { margin-top: 5px; margin-bottom: 0; }
+ol ol,ul ul, ol ul, ul ol { margin-top: 0px; }
+
+li { margin-top: 2px; font-size: 13px }
+pre { font-size: 13px; margin: 0 10px }
+dt { font-size: 13px; font-weight: bold }
+dd { font-size: 13px; margin: 4px 0 4px 40px }
+.table th, .table td { font-size: 13px; border: solid 1px #666; padding: 4px 10px; text-align: left }
+
+select { font: normal 13px Tahoma; height: 20px; }
+p, span, label { font-size: 13px; color: #000; }
+a { font-size: 16px; color: #E38800; }
+span.link { text-decoration: underline; cursor:pointer }
+a:hover, span.link:hover { text-decoration: none; }
+
+td { vertical-align: top; }
+
+p { text-align: left; margin: 0; }
+code { font: 16px Courier; }
+
+hr { margin: 15px 0; }
+
+.wrapper { width:1000px; margin:0 auto; }
+
+.mainMenu
+{
+	text-align: right;
+	background-color: #0094ff;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.mainMenu a
+{
+	font-weight: bold;
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+	border-bottom: solid 1px #fff;
+	margin-left: 40px;
+}
+
+.main
+{
+	margin-top: 35px;
+}
+
+.main img.logo
+{
+	float: left;
+	margin-right: 25px;
+}
+
+.main-sub { width: 260px; padding-left:20px }
+
+.about h1
+{
+	color: #0094ff;
+	margin-top: -5px;
+	margin-bottom: 5px;
+	font-size: 18px;
+}
+
+.about p, .about a { font-size: 17px }
+
+.about p
+{
+	margin: 0 0 0px 0;
+	color: #666;
+}
+
+.main-logos
+{
+	margin-top: 45px;
+}
+
+h2
+{
+	color: #0094ff;
+	font-weight: normal;
+	font-size: 21px;
+	margin-bottom: 5px;
+}
+
+li
+{
+	color: #666;
+	font-size: 16px;
+}
+
+.footer
+{
+	background-color: #777;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.footer p, .footer a
+{
+	font-size:14px;
+	color: #fff;
+}
+.footer p { display: inline-block; padding: 0 20px }
+
+.quickDownload { margin-top: -5px }
+.quickDownload p
+{
+	font-size: 18px;
+	color: #666;
+	margin-bottom: 10px;
+}
