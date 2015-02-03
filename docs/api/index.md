@@ -82,7 +82,7 @@ This class is accessible anywhere. Use it to control global properties.
 ### Fields
  * `library` - a object with a 	`getItem(namePath)` method; use that function to get symbols from library
  * `stage` - a [createjs.Stage](http://www.createjs.com/Docs/EaselJS/classes/Stage.html) object (use to customize native CreateJS stage)
- * `scene` - [nanofl.MovieClip](MovieClip) scene object (use to control global scene object)
+ * `scene` - a [nanofl.MovieClip](MovieClip) scene object (use to control global scene object)
 
 
 <a name="SeamlessSoundLoop"></a>
