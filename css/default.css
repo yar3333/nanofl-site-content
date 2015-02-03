@@ -12,14 +12,15 @@ dd { font-size: 13px; margin: 4px 0 4px 40px }
 .table th, .table td { font-size: 13px; border: solid 1px #666; padding: 4px 10px; text-align: left }
 
 select { font: normal 13px Tahoma; height: 20px; }
-p, span, label { font-size: 13px; color: #000; }
+p, span, label { font-size: 16px; color: #000; }
 a { font-size: 16px; color: #E38800; }
 span.link { text-decoration: underline; cursor:pointer }
 a:hover, span.link:hover { text-decoration: none; }
 
 td { vertical-align: top; }
 
-p { text-align: left; margin: 0; }
+p { text-align: left; margin: 10px 0; color: #666; }
+
 code { font: 16px Courier; }
 
 hr { margin: 15px 0; }
@@ -68,7 +69,7 @@ hr { margin: 15px 0; }
 
 .about p
 {
-	margin: 0 0 0px 0;
+	margin: 0;
 	color: #666;
 }
 
@@ -77,11 +78,25 @@ hr { margin: 15px 0; }
 	margin-top: 45px;
 }
 
+h1
+{
+	color: #0094ff;
+}
+
 h2
 {
 	color: #0094ff;
 	font-weight: normal;
 	font-size: 21px;
+	margin-bottom: 5px;
+}
+
+h3
+{
+	color: #666;
+	font-weight: normal;
+	font-size: 18px;
+	margin-top: 5px;
 	margin-bottom: 5px;
 }
 
@@ -106,9 +121,9 @@ li
 .footer p { display: inline-block; padding: 0 20px }
 
 .quickDownload { margin-top: -5px }
-.quickDownload p
+.quickDownload h2
 {
 	font-size: 18px;
 	color: #666;
-	margin-bottom: 10px;
+	margin: 0 0 10px 0;
 }
