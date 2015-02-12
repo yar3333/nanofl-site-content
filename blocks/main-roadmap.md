@@ -11,3 +11,4 @@
  * Publishing (compact all resources into one html file)
  * Cartoonization tool
  * Vectorization tool
+ * Online version of the project

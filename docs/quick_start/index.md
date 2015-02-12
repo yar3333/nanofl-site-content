@@ -102,3 +102,5 @@ Compile your project.
 Use **Test** command to open button.html in your browser!
 Open browser console and try to click on button:
 ![screenshot 9](screen9.png)
+
+[Edit this page at bitbucket](https://bitbucket.org/nanofl/site/src/default/docs/quick_start/index.md)

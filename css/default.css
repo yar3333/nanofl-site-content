@@ -1,6 +1,7 @@
 body { padding: 0; margin: 0; font-family: Tahoma; }
 div,table,tr,td,img { padding: 0; border: 0; border-collapse: collapse; }
 form { padding: 0; margin: 0; border-collapse: collapse; border:0; }
+iframe { padding: 0; margin: 0; border-collapse: collapse; border:solid 1px black; display:block }
 
 ol,ul { margin-top: 5px; margin-bottom: 0; }
 ol ol,ul ul, ol ul, ul ol { margin-top: 0px; }

@@ -5,20 +5,21 @@ For most things, you can just use [EaselsJS](http://www.createjs.com/Docs/EaselJ
 	
 Important rules:
 	
-1. Most time you don't need to call `cache()`. Just specify `filters` and your display object will be cached automatically.
+1. Most time you don't need to use `cache()` method: if your object have none empty `filters` then NanoFL cache it automatically.
 2. If you need to uncache your object, don't forget to uncache dependent objects too (often this are the parent objects).
 You can use `nanofl.DisplayObjectTools.smartUncache(myObj)` for this.
+3. In most cases you don't need to create instances of `Bitmap`/`Button`/`MovieClip` directly. Use generated children classes in **src** folder for that.
 	
 NanoFL classes:
 
-* [Bitmap](#Bitmap) - used internally to store data related to Bitmap symbol.
-* [Button](#Button) - represent MovieClip with a Button behavior.
+* [Bitmap](#Bitmap) - represent Bitmap Symbol on the canvas.
+* [Button](#Button) - represent MovieClip Symbol with a button behavior (checked "Treat as button").
 * [DisplayObjectTools](#DisplayObjectTools) - helpers applicable to `createjs.DisplayObject`.
-* [MovieClip](#MovieClip) - used to store data related to MovieClip symbol (EaselJS's MovieClip does not used by NanoFL).
+* [MovieClip](#MovieClip) - represent MovieClip Symbol (EaselJS's MovieClip class does not used by NanoFL).
 * [Player](#Player) - global store for CreateJS's stage and NanoFL's library and scene.
 * [SeamlessSoundLoop](#SeamlessSoundLoop) - helper to play background music without gaps.
 * [TextField](#TextField) - represent static and dynamic text on the canvas.
-* [TextRun](#TextRun) - represent a same-formatted piece of text for TextField.
+* [TextRun](#TextRun) - represent a formatted piece of text for `TextField`.
 
 
 <a name="Bitmap"></a>
@@ -53,7 +54,7 @@ Helper methods applicable to `createjs.DisplayObject`.
 
 ### Static methods
 
-* `smartUncache(myObj:DiplayObject)` - uncache `myObj` display object and dependent objects (at least the parent objects).
+* `smartUncache(myObj:DiplayObject)` - uncache `myObj` display object and dependent objects (at least the parent objects). In most cases NanoFL uncache objects automatically. Use this method only if something going wrong.
 
 Example:
 ```
@@ -169,3 +170,5 @@ This class represent a piece of text and it's format. Used in TextField to store
 ### Methods
 * `new(characters, fillColor, family, style, size, align, strokeSize, strokeColor)` - constructor
 * `clone()` - returns a copy of this object
+
+[Edit this page at bitbucket](https://bitbucket.org/nanofl/site/src/default/docs/api/index.md)
