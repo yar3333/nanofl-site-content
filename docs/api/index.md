@@ -3,10 +3,17 @@
 For most things, you can just use [EaselsJS](http://www.createjs.com/Docs/EaselJS/modules/EaselJS.html) and
 [SoundJS](http://www.createjs.com/Docs/SoundJS/modules/SoundJS.html) docs. Read below about NanoFL-related features.
 	
+Important rules:
+	
+1. Most time you don't need to call `cache()`. Just specify `filters` and your display object will be cached automatically.
+2. If you need to uncache your object, don't forget to uncache dependent objects too (often this are the parent objects).
+You can use `nanofl.DisplayObjectTools.smartUncache(myObj)` for this.
+	
 NanoFL classes:
 
 * [Bitmap](#Bitmap) - used internally to store data related to Bitmap symbol.
 * [Button](#Button) - represent MovieClip with a Button behavior.
+* [DisplayObjectTools](#DisplayObjectTools) - helpers applicable to `createjs.DisplayObject`.
 * [MovieClip](#MovieClip) - used to store data related to MovieClip symbol (EaselJS's MovieClip does not used by NanoFL).
 * [Player](#Player) - global store for CreateJS's stage and NanoFL's library and scene.
 * [SeamlessSoundLoop](#SeamlessSoundLoop) - helper to play background music without gaps.
@@ -36,6 +43,21 @@ Example:
 ```
 var btn = new nanofl.Button(nanofl.Player.library.getItem("myButton"));
 container.addChild(btn);
+```
+
+
+<a name="DisplayObjectTools"></a>
+
+## nanofl.DisplayObjectTools
+Helper methods applicable to `createjs.DisplayObject`.
+
+### Static methods
+
+* `smartUncache(myObj:DiplayObject)` - uncache `myObj` display object and dependent objects (at least the parent objects).
+
+Example:
+```
+nanofl.DisplayObjectTools.smartUncache(myMovieClip);
 ```
 
 
