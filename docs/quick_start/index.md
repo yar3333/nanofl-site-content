@@ -1,42 +1,53 @@
 # Quick Start
 
 Here we create a simple application: just button on the screen.
-Click on that button will log a message to the browser console.
+Click on that button will log a message into the browser console.
 
 First of all, run NanoFL and look at the screen:
+	
 ![NanoFL IDE screenshot 1](screen1.png)
+
 You can move and zoom view with mouse on any active tool.
 
-One thing before drawing: specify document properties. Use main menu: **File** / **Properties**:
+One thing before drawing: specify document properties. Use main menu **File** / **Properties**:
+	
 ![NanoFL IDE screenshot 2](screen2.png)
-Change size to 640 x 480, select gray background and uncheck "Loop" as shown at picture above. Click "OK" button and we will ready to start drawing.
+
+Change size to 640 x 480 and select gray background as shown at picture above. Click "OK" button and we will ready to start drawing.
 
 Now let to draw a button background. Click on toolbar's **Oval Tool** and select stroke/fill properties:
+
 ![NanoFL IDE screenshot 3](screen3.png)
+
 If you want to redraw oval, just press **A** to select all and **Delete** to remove selected graphics.
 
 We are ready to add text. Click on **Text Tool** at the left toolbar and click on the desired position on the scene to add text area:
+
 ![NanoFL IDE screenshot 4](screen4.png)
 
 Switch to select mode (click on **Select Tool** toolbar button) and try to select objects on the scene by clicking them.
 Use left mouse button to move objects to desired places.
 
 Let convert our object to symbol. Select all by pressing **A** and press **F8**:
+
 ![NanoFL IDE screenshot 5](screen5.png)
 
 Graphics part are done. Below we add onClick action. At first, select **Properties** from symbol context menu:
+
 ![NanoFL IDE screenshot 6](screen6.png)
 
 And specify attached class name:
+
 ![NanoFL IDE screenshot 7](screen7.png)
 
 Open **Document Properties** again and select desired language and IDE:
+
 ![NanoFL IDE screenshot 8](screen8.png)
 
 At this point we need to save our document. Press **Ctrl+S** or select **File / SaveAs** in the main menu.
 
 Now press Ctrl+Enter or select **File / Test** from the main menu. NanoFL runs your default browser with created document.
-In future, after changing you graphics you may just save document and update that page in your browser to view changes.
+In future, after changing graphics you can just save document and update that page in your browser to view changes.
 
 Check saved file path. NanoFL create folder (in my case I save as "button", so folder named "button") for our document.
 Let look into created folder:
@@ -52,17 +63,25 @@ Let look into created folder:
 WARNING: Chrome browser has some restrictions for html files opened locally.
 To avoid this, use NanoFL's **Test** command to open result html file through web server.
 
-Open code project file in your IDE. Depends on your language, you need to do slightly different work:
+Open code project/solution file in your code IDE. Depends on your language, you need to do slightly different work.
 	
 
 ##JavaScript
 Add **onMouseDown** method into **MainButtonClass.js**:
 ```
-MainButtonClass.prototype = $extend(base.MainButtonClass.prototype,
+function MainButtonClass()
 {
+	base.MainButtonClass.call(this);
+}
+
+MainButtonClass.prototype = $extend(base.MainButtonClass.prototype, {
+	
 	onMouseDown: function(e)
 	{
-		console.log("click!");
+		if (this.hitTest(e.localX, e.localY))
+		{
+			console.log("click!");
+		}
 	}
 });
 ```
@@ -78,7 +97,10 @@ class MainButtonClass extends base.MainButtonClass
 {
 	onMouseDown(e:createjs.MouseEvent)
 	{
-		console.log("click!");
+		if (this.hitTest(e.localX, e.localY))
+		{
+			console.log("click!");
+		}
 	}
 }
 ```
@@ -92,7 +114,10 @@ class MainButtonClass extends base.MainButtonClass
 {
 	override function onMouseDown(e:createjs.MouseEvent)
 	{
-		trace("click!");
+		if (hitTest(e.localX, e.localY))
+		{
+			trace("click!");
+		}
 	}
 }
 ```
