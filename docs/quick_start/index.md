@@ -61,9 +61,9 @@ Let look into created folder:
 * **button.nfl** - NanoFL document file (open it in NanoFL to edit graphics).
 
 WARNING: Chrome browser has some restrictions for html files opened locally.
-To avoid this, use NanoFL's **Test** command to open result html file through web server.
+To avoid this, use NanoFL's **Test** command to open result html file through embedded web server.
 
-Open code project/solution file in your code IDE. Depends on your language, you need to do slightly different work.
+Open code solution/project file in your code IDE. Depends on your language, you need to do slightly different work.
 	
 
 ##JavaScript
@@ -128,4 +128,6 @@ Use **Test** command to open button.html in your browser!
 Open browser console and try to click on button:
 ![screenshot 9](screen9.png)
 
-[Edit this page at bitbucket](https://bitbucket.org/nanofl/site/src/default/docs/quick_start/index.md)
+----------------------------------------------------------------------------------------------------
+
+<a href="https://bitbucket.org/nanofl/site/src/default/docs/quick_start/index.md" target="_blank">Edit this page at bitbucket</a>

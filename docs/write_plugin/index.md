@@ -1,6 +1,6 @@
 # Write plugin
 
-NanoFL has several interfaces to be extended by plugins.
+NanoFL has several points to be extended by plugins.
 You can write plugin on TypeScript or Haxe (or even on pure JavaScript).
 Using NanoFL PluginAPI declaration files (`nanofl.d.ts` for TypeScript and `*.hx` for Haxe) making development simple.
 
@@ -87,11 +87,56 @@ if at least one of the plugin's filters was used in NanoFL document.
 <a name="language"></a>
 
 ## Language
+Language plugin is a class which implements `models.common.plugins.ILanguagePlugin` interface.
+The main method of this class, called by NanoFL IDE, is `generateFiles`.
+This method must generate code language files from data from received `documentProperties` and `library` objects.
+
+Plugin file must contain registration code (executed on plugin load):
+```
+models.common.Plugins.registerLanguage(new MyPluginClass());
+
+```
+Plugin file may not have any public variables/functions -
+core interacts with plugin only by reference from `registerLanguage`.
+
+There are several examples of language plugins.
+
+Written on Haxe:
+
+* [NoneLanguagePlugin](https://bitbucket.org/nanofl/plugins/src/default/NoneLanguagePlugin),
+* [JavaScriptLanguagePlugin](https://bitbucket.org/nanofl/plugins/src/default/JavaScriptLanguagePlugin),
+* [HaxeLanguagePlugin](https://bitbucket.org/nanofl/plugins/src/default/HaxeLanguagePlugin).
+
+Written on TypeScript:
+
+* [TypeScriptLanguagePlugin](https://bitbucket.org/nanofl/plugins/src/default/TypeScriptLanguagePlugin).
 
 
 <a name="ide"></a>
 
 ## IDE
+IDE plugin is a class which implements `models.common.plugins.IIdePlugin` interface.
+The main method of this class, called by NanoFL IDE, is `generateFiles`.
+This method must generate solution/project files from data from received `documentProperties` and `library` objects.
 
+Plugin file must contain registration code (executed on plugin load):
+```
+models.common.Plugins.registerIde(new MyPluginClass());
 
-[Edit this page at bitbucket](https://bitbucket.org/nanofl/site/src/default/docs/examples/index.md)
+```
+Plugin file may not have any public variables/functions -
+core interacts with plugin only by reference from `registerIde`.
+
+There are examples of language plugins.
+
+Written on Haxe:
+
+* [FlashDevelopIdePlugin](https://bitbucket.org/nanofl/plugins/src/default/FlashDevelopIdePlugin).
+
+Written on TypeScript:
+
+* [MsVisualStudio2013IdePlugin](https://bitbucket.org/nanofl/plugins/src/default/MsVisualStudio2013IdePlugin).
+
+----------------------------------------------------------------------------------------------------
+
+<a href="https://bitbucket.org/nanofl/site/src/default/docs/write_plugin/index.md" target="_blank">Edit this page at bitbucket</a>

@@ -66,5 +66,6 @@ Simple motion tween test
 
 <iframe src="/examples/nanofl/tween/tween.html" width="550" height="400"></iframe>
 
+----------------------------------------------------------------------------------------------------
 
-[Edit this page at bitbucket](https://bitbucket.org/nanofl/site/src/default/docs/examples/index.md)
+<a href="https://bitbucket.org/nanofl/site/src/default/docs/examples/index.md" target="_blank">Edit this page at bitbucket</a>

@@ -171,4 +171,6 @@ This class represent a piece of text and it's format. Used in TextField to store
 * `new(characters, fillColor, family, style, size, align, strokeSize, strokeColor)` - constructor
 * `clone()` - returns a copy of this object
 
-[Edit this page at bitbucket](https://bitbucket.org/nanofl/site/src/default/docs/api/index.md)
+----------------------------------------------------------------------------------------------------
+
+<a href="https://bitbucket.org/nanofl/site/src/default/docs/api/index.md" target="_blank">Edit this page at bitbucket</a>
