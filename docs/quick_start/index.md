@@ -128,6 +128,8 @@ Use **Test** command to open button.html in your browser!
 Open browser console and try to click on button:
 ![screenshot 9](screen9.png)
 
+Source code of the created application: [link](https://bitbucket.org/nanofl/examples/src/default/button/).
+
 ----------------------------------------------------------------------------------------------------
 
 <a href="https://bitbucket.org/nanofl/site/src/default/docs/quick_start/index.md" target="_blank">Edit this page at bitbucket</a>
