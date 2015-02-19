@@ -7,7 +7,7 @@ ol,ul { margin-top: 5px; margin-bottom: 0; }
 ol ol,ul ul, ol ul, ul ol { margin-top: 0px; }
 
 li { margin-top: 2px; font-size: 13px }
-pre { font-size: 13px; margin: 0 10px }
+pre { font-size: 13px; margin: 0 }
 dt { font-size: 13px; font-weight: bold }
 dd { font-size: 13px; margin: 4px 0 4px 40px }
 .table th, .table td { font-size: 13px; border: solid 1px #666; padding: 4px 10px; text-align: left }
@@ -22,7 +22,8 @@ td { vertical-align: top; }
 
 p { text-align: left; margin: 10px 0; color: #666; }
 
-code { font: 16px Courier; }
+code { font: 16px Courier; background-color: #eee; padding: 0 3px }
+pre code { padding: 10px 20px; display: block; border: solid 1px #aaa };
 
 hr { margin: 15px 0; }
 
