@@ -57,7 +57,7 @@ Let look into created folder:
 * **library** - our document's library (contain movie clips, bitmaps, fonts and sounds);
 * **src** - store source code files (NanoFL generate template files for attached classes on save);
 * **button.fdproj** - here: FlashDevelop project file (if you choose other language/IDE you will see other files; generated on save);
-* **button.html** - open this file in browser to view result (this file regenerated on save only if it not exists or you do not choose any language, so if you select language then you can manually edit this file for your needs);
+* **button.html** - open this file in browser to view result (NanoFL overwrite this file on save if it contain `<!--ALLOW_REGENERATION-->` string, so remove that string if you want to customize your html);
 * **button.nfl** - NanoFL document file (open it in NanoFL to edit graphics).
 
 WARNING: Chrome browser has some restrictions for html files opened locally.
@@ -85,9 +85,6 @@ MainButtonClass.prototype = $extend(base.MainButtonClass.prototype, {
 	}
 });
 ```
-Ensure `<script src="gen/base.js"></script>` and `<script src="src/MainButtonClass.js"></script>` are present in **button.html**.
-If not then delete **button.html** and save project from NanoFL. File **button.html** will be generated again.
-NanoFL add into it links to all scripts from **gen** and **src** folders.
 
 
 ##TypeScript
