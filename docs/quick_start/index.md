@@ -57,7 +57,7 @@ Let look into created folder:
 * **library** - our document's library (contain movie clips, bitmaps, fonts and sounds);
 * **src** - store source code files (NanoFL generate template files for attached classes on save);
 * **button.fdproj** - here: FlashDevelop project file (if you choose other language/IDE you will see other files; generated on save);
-* **button.html** - open this file in browser to view result (NanoFL overwrite this file on save if it contain `<!--ALLOW_REGENERATION-->` string, so remove that string if you want to customize your html);
+* **button.html** - open this file in browser to view result (NanoFL overwrite this file on save if it contain <nobr>`<!--ALLOW_REGENERATION-->`</nobr> string, so remove that string if you want to customize your html);
 * **button.nfl** - NanoFL document file (open it in NanoFL to edit graphics).
 
 WARNING: Chrome browser has some restrictions for html files opened locally.
