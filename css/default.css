@@ -27,7 +27,9 @@ pre code { padding: 10px 20px; display: block; border: solid 1px #aaa };
 
 hr { margin: 15px 0; }
 
-.wrapper { width:1000px; margin:0 auto; }
+.wrapper { width: 1000px; margin: 0 auto; }
+
+.main { margin-top: 35px } 
 
 .mainMenu
 {
@@ -46,18 +48,15 @@ hr { margin: 15px 0; }
 	margin-left: 40px;
 }
 
-.main
-{
-	margin-top: 35px;
-}
-
-.main img.logo
+.mainContent img.logo
 {
 	float: left;
 	margin-right: 25px;
 }
 
-.main-sub { width: 260px; padding-left:20px }
+.mainSub { width: 260px; padding-left:20px }
+
+.about { margin-bottom: 26px; }
 
 .about h1
 {
@@ -73,11 +72,6 @@ hr { margin: 15px 0; }
 {
 	margin: 0;
 	color: #666;
-}
-
-.main-logos
-{
-	margin-top: 45px;
 }
 
 h1
@@ -122,8 +116,8 @@ li
 }
 .footer p { display: inline-block; padding: 0 20px }
 
-.quickDownload { margin-top: -5px }
-.quickDownload h2
+.mainDownload { margin: -5px 0 20px }
+.mainDownload h2
 {
 	font-size: 18px;
 	color: #666;

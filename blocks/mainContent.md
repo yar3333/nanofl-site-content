@@ -1,3 +1,21 @@
+<img src="/images/screen.png" width="100%" />
+
+## Features
+
+* Open and simple self-descriptive files format (`XML`)
+* Importing from Adobe Flash Uncompressed Document file format (`*.xfl`)
+* Vector graphics (based on edges, polygons and boolean operations)
+* Raster images in the Library and on the Scene (`png`/`jpeg`)
+* Layers: groups, masks, tweens, guides
+* Effects: alpha, brightness, tint, advanced
+* Filters: Adjust Color, Blur, Drop Shadow, Glow (Need more? Write a plugin - its simple!)
+* Linear and radial gradients, filling with a bitmap
+* Working with text on canvas (web fonts from local files and Google Fonts are supported)
+* Generating HTML on save: view result in your favorite browser immediately
+* Generating project files for your favorite IDE on save
+* [CreateJS](http://createjs.com/)-based generated code (by default used library from CDN)
+
+
 ## Road map
 
 Please, vote for [proposals](https://bitbucket.org/nanofl/nanofl/issues?kind=proposal&status=new) or create your own on bitbucket.
@@ -28,3 +46,12 @@ Please, vote for [proposals](https://bitbucket.org/nanofl/nanofl/issues?kind=pro
 ([link](https://bitbucket.org/nanofl/nanofl/issue/12/online-version-of-the-project))
 * [PixiJS](http://www.pixijs.com) support
 ([link](https://bitbucket.org/nanofl/nanofl/issue/13/pixijs-support))
+
+
+## Credits
+
+* [jQuery](http://jquery.com/) framework, jQuery Foundation
+* [CreateJS](http://www.createjs.com/) framework, gskinner
+* [Silk Icons](http://www.famfamfam.com/lab/icons/silk/), Mark James
+* [XulRunner](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/XULRunner), [Mozilla](https://www.mozilla.org/)
+* [NekoVM](http://nekovm.org/), [Motion-Twin](http://www.motion-twin.com/)
