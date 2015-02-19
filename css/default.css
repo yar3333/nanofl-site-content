@@ -22,7 +22,7 @@ td { vertical-align: top; }
 
 p { text-align: left; margin: 10px 0; color: #666; }
 
-code { font: 16px Courier; background-color: #eee; padding: 0 3px }
+code { font: 16px Courier; color: black; background-color: #eee; padding: 0 3px }
 pre code { padding: 10px 20px; display: block; border: solid 1px #aaa };
 
 hr { margin: 15px 0; }
