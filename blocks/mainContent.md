@@ -14,6 +14,7 @@
 * Generating HTML on save: view result in your favorite browser immediately
 * Generating project files for your favorite IDE on save
 * [CreateJS](http://createjs.com/)-based generated code (by default used library from CDN)
+* [Scripts](/docs/scripts/) support
 
 
 ## Road map
