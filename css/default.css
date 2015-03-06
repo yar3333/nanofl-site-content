@@ -14,22 +14,25 @@ dd { font-size: 13px; margin: 4px 0 4px 40px }
 
 select { font: normal 13px Tahoma; height: 20px; }
 p, span, label { font-size: 16px; color: #000; }
-a { font-size: 16px; color: #E38800; }
-span.link { text-decoration: underline; cursor:pointer }
-a:hover, span.link:hover { text-decoration: none; }
+
+a, span.link { text-decoration: none; cursor:pointer; font-size: 16px; color: #E38800; }
+a:hover, span.link:hover { text-decoration: underline; }  
 
 td { vertical-align: top; }
 
 p { text-align: left; margin: 10px 0; color: #666; }
 
-code { font: 16px "Lucida Console", Monaco, monospace; color: #444; background-color: #eee; padding: 0 3px; overflow: auto }
-pre code { padding: 10px 20px; display: block; border: solid 1px #aaa };
+code { font: 16px "Lucida Console", Monaco, monospace; color: #444; background-color: #eee; padding: 2px 4px; overflow: auto }
+pre code { padding: 10px 20px; display: block; border: solid 1px #aaa }
+h2 code { display:inline-block; margin-bottom:5px; font-size: 12px }
 
 hr { margin: 15px 0; }
 
+small a { font-size: 14px }
+
 .wrapper { width: 1000px; margin: 0 auto; }
 
-.main { margin-top: 35px } 
+.main { margin-top: 35px }
 
 .mainMenu
 {
