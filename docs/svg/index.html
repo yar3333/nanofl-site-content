@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>SVG - NanoFL vector and animation studio</title>
+        <link rel="stylesheet" href="/css/default.css" />
+		
+		<style>
+			.svgTable td:first-child img { height:200px;  }
+			.svgTable td { max-width:300px; overflow:hidden }
+		</style>
+    </head>
+    <body>
+		{/blocks/mainMenu.html}
+		
+		<div class="wrapper">
+			<h1>SVG samples</h1>
+			<p>NanoFL has a SvgImporter plugin to convert SVG images into NanoFL documents. Next table show conversion result SVG =&gt; NFL=&gt; PNG.</p>
+			<table class="table svgTable">
+				<tr><th>Original SVG</th><th>Exported to NanoFL</th><th>Comments</th></tr>
+				{images.html}
+			</table>
+		</div>
+		
+		{/blocks/footer.html}
+    </body>
+</html>
