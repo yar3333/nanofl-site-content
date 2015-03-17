@@ -1,6 +1,7 @@
 ## Plugins included
 
  * Importer from Adobe Flash
+ * Importer from SVG
  * JavaScript language
  * TypeScript language
  * Haxe language

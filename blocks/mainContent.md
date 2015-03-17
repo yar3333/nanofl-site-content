@@ -4,6 +4,7 @@
 
 * Open and simple self-descriptive files format (`XML`)
 * Importing from Adobe Flash Uncompressed Document file format (`*.xfl`)
+* [Importing from SVG file format](/docs/svg/) (`*.svg`)
 * Vector graphics (based on edges, polygons and boolean operations)
 * Raster images in the Library and on the Scene (`png`/`jpeg`)
 * Layers: groups, masks, tweens, guides
