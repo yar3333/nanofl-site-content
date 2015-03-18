@@ -15,6 +15,7 @@
 * Generating HTML on save: view result in your favorite browser immediately
 * Generating project files for your favorite IDE on save
 * [CreateJS](http://createjs.com/)-based generated code (by default used library from CDN)
+* [Batch processing](/docs/command_line/)
 * [Scripts](/docs/scripts/) support
 
 
@@ -32,8 +33,6 @@ Please, vote for [proposals](https://bitbucket.org/nanofl/nanofl/issues?kind=pro
 ([link](https://bitbucket.org/nanofl/nanofl/issue/4/blender-3d-files-in-the-library-with))
 * Special layer on the top of canvas for HTML input elements
 ([link](https://bitbucket.org/nanofl/nanofl/issue/5/special-layer-on-the-top-of-canvas-for))
-* Import from SVG
-([link](https://bitbucket.org/nanofl/nanofl/issue/6/import-from-svg))
 * Export into SVG
 ([link](https://bitbucket.org/nanofl/nanofl/issue/7/export-into-svg))
 * More base tools: pen and eraser
