@@ -148,8 +148,8 @@ tf.text = "My text";
 * `width` - current width of text field
 
 ### Methods
-* `update()` - force updating children `createjs.Text` (use this method only if something goes wrong)
- 
+* `new()` - constructor
+
 
 <a name="TextRun"></a>
 
@@ -162,13 +162,16 @@ This class represent a piece of text and it's format. Used in TextField to store
 * `characters` - text string
 * `family` - font family (like "Courier New")
 * `fillColor` - fill color ("red", "#ff0000", "rgba(255, 0, 0, 0.5)")
+* `kerning` - a boolean to do auto kerning
+* `letterSpacing` - space between letters (ignored if kerning is on)
+* `lineSpacing` - additional space between lines
 * `size` - font size
 * `strokeColor` - stroke color (used only if strokeSize > 0)
 * `strokeSize` - stroke thickness (zero for regular text)
 * `style` - font style ("", "bold", "italic" or "bold italic")
 
 ### Methods
-* `new(characters, fillColor, family, style, size, align, strokeSize, strokeColor)` - constructor
+* `new([characters], [fillColor], [size])` - constructor
 * `clone()` - returns a copy of this object
 
 ----------------------------------------------------------------------------------------------------
