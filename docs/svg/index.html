@@ -18,15 +18,23 @@
 		{/blocks/mainMenu.html}
 		
 		<div class="wrapper">
-			<h1>SVG samples</h1>
-			<p>NanoFL has a SvgImporter plugin to convert SVG images into NanoFL documents. Next table show conversion result SVG =&gt; NFL=&gt; PNG.</p>
+			<h1>SVG</h1>
+			<p>
+				NanoFL has a SvgImporter plugin to convert SVG images into NanoFL documents.
+				Most basic features are well supported
+				(<a href="https://bitbucket.org/nanofl/nanofl/issues?q=svg%20import" traget="_blank">known issues</a>).
+			</p>
+			
+			<h2>Test samples</h2>
+			<p>Next table show conversion result SVG =&gt; NFL=&gt; PNG.</p>
 			<p>PNG images produced in batch mode by next command:</p>
 			<pre><code>nanoflc.exe NAME.svg -resize-fit 300x200 -export NAME.png</code></pre>
-			<p>Sometimes result images may have strange position/size - it is normal (this mean strange position/size in SVG).</p>
+			<p>Sometimes images may have strange position/size - it is normal (this mean strange position/size in SVG).</p>
 			<table class="table svgTable">
 				<tr><th>Original SVG</th><th>Exported to NanoFL</th><th>Comments</th></tr>
 				{images.html}
 			</table>
+			
 			<hr />
 			<p>
 				Edit <a href="https://bitbucket.org/nanofl/site/src/default/docs/svg/images.html" target="_blank">images list </a> / 
