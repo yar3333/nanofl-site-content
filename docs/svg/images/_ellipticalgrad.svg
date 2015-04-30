@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.0"
+   width="800"
+   height="800"
+>
+	<defs>
+		<radialGradient
+			id="gradient"
+			cx="254.82332"
+			cy="253.04457"
+			r="169.87473"
+			fx="254.82332"
+			fy="253.04457"
+			gradientUnits="userSpaceOnUse"
+			gradientTransform="matrix(1,0,0,0.5929308,0,103.00665)"
+		>
+			<stop style="stop-color:#ea0000;stop-opacity:1" offset="0" />
+			<stop style="stop-color:#730000;stop-opacity:1" offset="1" />
+		</radialGradient>
+	</defs>
+	<path
+		style="fill:url(#gradient)"
+		d="M 423.07205 253.04457 A 168.24873 99.097961 0 1 1  86.574585,253.04457 A 168.24873 99.097961 0 1 1  423.07205 253.04457 z"
+	/>
+</svg>
