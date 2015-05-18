@@ -14,7 +14,7 @@
 * Working with text on canvas (web fonts from local files and Google Fonts are supported)
 * Generating HTML on save: view result in your favorite browser immediately
 * Generating project files for your favorite IDE on save
-* [CreateJS](http://createjs.com/)-based generated code (by default used library from CDN)
+* [CreateJS](http://createjs.com/)-based generated code
 * [Batch processing](/docs/command_line/)
 * [Scripts](/docs/scripts/) support
 
@@ -39,10 +39,6 @@ Please, vote for [proposals](https://bitbucket.org/nanofl/nanofl/issues?kind=pro
 ([link](https://bitbucket.org/nanofl/nanofl/issue/8/more-base-tools-pen-and-eraser))
 * Publishing (compact all resources into one html file)
 ([link](https://bitbucket.org/nanofl/nanofl/issue/9/publishing-compact-all-resources-into-one))
-* Cartoonization tool
-([link](https://bitbucket.org/nanofl/nanofl/issue/10/cartoonization-tool))
-* Vectorization tool
-([link](https://bitbucket.org/nanofl/nanofl/issue/11/vectorization-tool))
 * Online version of the project
 ([link](https://bitbucket.org/nanofl/nanofl/issue/12/online-version-of-the-project))
 * [PixiJS](http://www.pixijs.com) support

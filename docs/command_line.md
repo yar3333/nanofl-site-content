@@ -2,7 +2,7 @@
 
 
 ## Normal mode
-In normal mode IDE starts as usual and support interactions with user after command-line arguments processing
+In normal mode IDE starts as usual and support interactions with user after command-line arguments processing.
 Don't use this in batch processing due to some limits (not support relative file paths, process can exit without waiting real IDE closing, exit code may be wrong).
 ```
 NanoFL.exe [ <options> ] [ <file_to_load_or_import> | <script_file_to_execute.js> ] ...
@@ -10,7 +10,7 @@ NanoFL.exe [ <options> ] [ <file_to_load_or_import> | <script_file_to_execute.js
 
 Options sequence is important: NanoFL process options consecutive from first to last. Next options are supported:
 
-* `-export <output file path> `- Export or save current document depends on output file extension.
+* `-export <output file path>` - Export or save current document depends on output file extension.
 * `-resize-fit <width>x<height>` - Resize document to fit specified size. `<width>` or `<height>` can be ommited.
 * `-fps` - Show frames per second HUD.
 * `-jsconsole` - Show debug console.
