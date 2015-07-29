@@ -12,6 +12,7 @@ Options sequence is important: NanoFL process options consecutive from first to 
 
 * `-export <output file path>` - Export or save current document depends on output file extension.
 * `-resize-fit <width>x<height>` - Resize document to fit specified size. `<width>` or `<height>` can be ommited.
+* `-generator <name>/<mode>` - Set document's generator and it's mode. If mode ommited, then the first mode will be used. For example: "CreateJS/HTML" or just "CreateJS".
 * `-fps` - Show frames per second HUD.
 * `-jsconsole` - Show debug console.
 
