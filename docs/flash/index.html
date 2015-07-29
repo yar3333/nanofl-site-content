@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>SVG - NanoFL vector and animation editor</title>
+		<link rel="stylesheet" href="/css/default.css" />
+		
+		<style>
+			.flashTable { margin-top:20px; width:100%; }
+			.flashTable td:first-child img { height:200px;  }
+			.flashTable td { max-width:300px; overflow:hidden; }
+			.flashTable td a { display:block; width:300px; height:200px; }
+			.flashTable .svgGood { background-color:#90ff90; color:#000; text-align:center; vertical-align:middle; }
+			.flashTable .svgBad { background-color:#ff9090; color:#000; text-align:center; vertical-align:middle; }
+			.flashTable .svgAlert { background-color:#ffff90; color:#000; text-align:center; vertical-align:middle; }
+		</style>
+	</head>
+	<body>
+		{/blocks/mainMenu.html}
+		
+		<div class="wrapper">
+			<h1>SVG</h1>
+			<p>
+				NanoFL has a FlashImporter plugin to convert Flash `fla/xfl` document into NanoFL documents.
+				Most features are well supported
+				(<a href="https://bitbucket.org/nanofl/nanofl/issues?q=flash%20import" traget="_blank">known issues</a>).
+			</p>
+			
+			<h2>Test samples</h2>
+			<p>Next table show conversion result FLA =&gt; NFL=&gt; PNG.</p>
+			<p>PNG images produced in batch mode by next command:</p>
+			<pre><code>nanoflc.exe NAME.fla -resize-fit 300x200 -export NAME.png</code></pre>
+			<p>Sometimes images may have strange position/size - it is normal (this mean strange position/size in FLA).</p>
+			<table class="table flashTable">
+				<tr><th>Original SWF</th><th>Exported to NanoFL</th><th>Comments</th></tr>
+				{images.html}
+			</table>
+			
+			<hr />
+			<p>
+				Edit <a href="https://bitbucket.org/nanofl/site/src/default/docs/flash/images.html" target="_blank">images list </a> / 
+				<a href="https://bitbucket.org/nanofl/site/src/default/docs/flash/index.html" target="_blank">this page</a> at bitbucket
+			</p>
+		</div>
+		
+		{/blocks/footer.html}
+	</body>
+</html>
