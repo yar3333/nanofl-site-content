@@ -1,8 +1,0 @@
-<nanofl version="1.0.0">
-	<param name="width" value="267" />
-	<param name="height" value="200" />
-	<param name="backgroundColor" value="#FFFFFF" />
-	<param name="framerate" value="24" />
-	<param name="generator" value="CreateJS" />
-	<param name="generatorMode" value="HTML" />
-</nanofl>

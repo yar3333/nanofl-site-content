@@ -3,7 +3,7 @@
 ## Features
 
 * Open and simple self-descriptive files format (`XML`)
-* Importing from Adobe Flash Uncompressed Document file format (`*.xfl`)
+* [Importing from Adobe Flash Documents ](/docs/flash/) (`*.svg`)  (`*.fla;*.xfl`)
 * [Importing from SVG file format](/docs/svg/) (`*.svg`)
 * Vector graphics (based on edges, polygons and boolean operations)
 * Raster images in the Library and on the Scene (`png`/`jpeg`)
@@ -12,7 +12,7 @@
 * Filters: Adjust Color, Blur, Drop Shadow, Glow (Need more? Write a plugin - its simple!)
 * Linear and radial gradients, filling with a bitmap
 * Working with text on canvas (web fonts from local files and Google Fonts are supported)
-* Generating HTML on save: view result in your favorite browser immediately
+* Generating HTML on save: view result movie in your favorite browser
 * Generating project files for your favorite IDE on save
 * [CreateJS](http://createjs.com/)-based generated code
 * [Batch processing](/docs/command_line/)

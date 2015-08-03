@@ -1,5 +1,18 @@
 <movieclip>
-	<layer name="Layer 0">
-		<frame />
+	<layer name="Label">
+		<frame>
+			<group>
+				<group>
+					<shape>
+						<strokes>
+							<stroke type="solid" color="#FF0023" thickness="6.75" />
+						</strokes>
+						<figure>
+							<edge strokeIndex="0" edges="M395.35,30.65L366.6,362.35" />
+						</figure>
+					</shape>
+				</group>
+			</group>
+		</frame>
 	</layer>
 </movieclip>

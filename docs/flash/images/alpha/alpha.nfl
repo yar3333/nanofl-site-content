@@ -3,6 +3,7 @@
 	<param name="height" value="390" />
 	<param name="backgroundColor" value="#999999" />
 	<param name="framerate" value="24" />
+	<param name="scaleMode" value="fit" />
 	<param name="generator" value="CreateJS" />
 	<param name="generatorMode" value="HTML" />
 </nanofl>

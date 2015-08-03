@@ -1,5 +1,20 @@
 <movieclip>
-	<layer name="Layer 0">
-		<frame />
+	<layer name="Label">
+		<frame>
+			<shape>
+				<fills>
+					<fill type="radial" colors="#00FF00,rgba(255,255,255,0.341176470588235),#FF100E" ratios="0,0.768627450980392,1" cx="0" cy="0" r="1" />
+					<fill type="radial" colors="#00FF00,#000000" ratios="0,1" cx="0" cy="0" r="1" fx="-0.63921568627451" />
+				</fills>
+				<figure>
+					<polygon fillIndex="0">
+						<contour edges="M221,232.95L221,183L271.95,183L271.95,13L8.95,13L8.95,232.95L221,232.95" />
+					</polygon>
+					<polygon fillIndex="1">
+						<contour edges="M229,191L229,376L512.95,376L512.95,191L229,191" />
+					</polygon>
+				</figure>
+			</shape>
+		</frame>
 	</layer>
 </movieclip>
