@@ -8,11 +8,12 @@ Don't use this in batch processing due to some limits (not support relative file
 NanoFL.exe [ <options> ] [ <file_to_load_or_import> | <script_file_to_execute.js> ] ...
 ```
 
-Options sequence is important: NanoFL process options consecutive from first to last. Next options are supported:
+Options sequence is important: NanoFL process options consecutive from the first to the last. Next options are supported:
 
 * `-export <output file path>` - Export or save current document depends on output file extension.
 * `-resize-fit <width>x<height>` - Resize document to fit specified size. `<width>` or `<height>` can be ommited.
 * `-generator <name>/<mode>` - Set document's generator and it's mode. If mode ommited, then the first mode will be used. For example: "CreateJS/HTML" or just "CreateJS".
+* `-scaleMode <mode>` - Set document's scale mode (`noScale`, `fit`, `fill`, `stretch` and `custom` are supported). Default is `noScale`.
 * `-fps` - Show frames per second HUD.
 * `-jsconsole` - Show debug console.
 
