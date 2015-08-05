@@ -14,7 +14,7 @@
 		</frame>
 	</layer>
 	<layer name="Layer 2" parentIndex="0">
-		<frame duration="155" tweenType="motion" motionTweenEasing="70" motionTweenRotateCount="-1" motionTweenOrientToPath="true">
+		<frame duration="155" tweenType="motion" motionTweenEasing="-70" motionTweenRotateCount="-1" motionTweenOrientToPath="true">
 			<instance libraryItem="Symbol 1" x="27.4" y="236.65" regX="11.5" regY="15.5" />
 		</frame>
 		<frame tweenType="motion">
