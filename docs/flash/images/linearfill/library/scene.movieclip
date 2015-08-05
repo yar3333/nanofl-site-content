@@ -10,7 +10,7 @@
 				</strokes>
 				<figure>
 					<polygon fillIndex="0">
-						<contour edges="M96,71L75,331.95L502,318.95L233,71L96,71" />
+						<contour edges="M502,318.95L233,71L96,71L75,331.95L502,318.95" />
 					</polygon>
 					<edge strokeIndex="0" edges="M96,71L233,71L502,318.95L75,331.95L96,71" />
 				</figure>

@@ -7,7 +7,7 @@
 				</fills>
 				<figure>
 					<polygon fillIndex="0">
-						<contour edges="M-81,-59L-81,59L81,59L81,-59L-81,-59" />
+						<contour edges="M81,59L81,-59L-81,-59L-81,59L81,59" />
 					</polygon>
 				</figure>
 			</shape>

@@ -7,10 +7,10 @@
 				</fills>
 				<figure>
 					<polygon fillIndex="0">
-						<contour edges="M377,148L293,183.75L377,261L377,148" />
+						<contour edges="M276,234L276,92L178,161.5L276,234" />
 					</polygon>
 					<polygon fillIndex="0">
-						<contour edges="M276,92L178,161.5L276,234L276,92" />
+						<contour edges="M377,261L377,148L293,183.75L377,261" />
 					</polygon>
 				</figure>
 			</shape>

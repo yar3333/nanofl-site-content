@@ -25,7 +25,7 @@
 				</strokes>
 				<figure>
 					<polygon fillIndex="0">
-						<contour edges="M27.5,-48.3L-28.5,-48.3L-28.5,53.7L27.5,53.7L27.5,-48.3" />
+						<contour edges="M-28.5,53.7L27.5,53.7L27.5,-48.3L-28.5,-48.3L-28.5,53.7" />
 					</polygon>
 					<edge strokeIndex="0" edges="M27.5,-48.3L27.5,53.7L-28.5,53.7L-28.5,-48.3L27.5,-48.3" />
 				</figure>
