@@ -1,20 +1,8 @@
 <movieclip>
 	<layer name="Label">
 		<frame>
-			<shape>
-				<fills>
-					<fill type="radial" colors="#00FF00,#000000" ratios="0,1" cx="0" cy="0" r="1" fx="-0.63921568627451" />
-					<fill type="radial" colors="#00FF00,rgba(255,255,255,0.341176470588235),#FF100E" ratios="0,0.768627450980392,1" cx="0" cy="0" r="1" />
-				</fills>
-				<figure>
-					<polygon fillIndex="0">
-						<contour edges="M512.95,376L512.95,191L229,191L229,376L512.95,376" />
-					</polygon>
-					<polygon fillIndex="1">
-						<contour edges="M8.95,232.95L221,232.95L221,183L271.95,183L271.95,13L8.95,13L8.95,232.95" />
-					</polygon>
-				</figure>
-			</shape>
+			<instance libraryItem="00000001-014EFEFE-0000B351-6167-8338" x="154.45" y="119.95" matrix="130.7125000000004,-19.6625,10.1375,67.3625" />
+			<instance libraryItem="00000002-014EFEFE-0000B351-85C0-0631" x="369" y="284" matrix="81.125,-56.4375,59.2,85.11250000000041" />
 		</frame>
 	</layer>
 </movieclip>
