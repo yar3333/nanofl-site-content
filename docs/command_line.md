@@ -5,25 +5,7 @@
 In normal mode IDE starts as usual and support interactions with user after command-line arguments processing.
 Don't use this in batch processing due to some limits (not support relative file paths, process can exit without waiting real IDE closing, exit code may be wrong).
 ```
-NanoFL.exe [ <options> ] [ <file_to_load_or_import> | <script_file_to_execute.js> ] ...
-```
-
-Options sequence is important: NanoFL process options consecutive from the first to the last. Next options are supported:
-
-* `-export <output file path>` - Export or save current document depends on output file extension.
-* `-resize-fit <width>x<height>` - Resize document to fit specified size. `<width>` or `<height>` can be ommited.
-* `-generator <name>/<mode>` - Set document's generator and it's mode. If mode ommited, then the first mode will be used. For example: "CreateJS/HTML" or just "CreateJS".
-* `-scaleMode <mode>` - Set document's scale mode (`noScale`, `fit`, `fill`, `stretch` and `custom` are supported). Default is `noScale`.
-* `-fps` - Show frames per second HUD.
-* `-jsconsole` - Show debug console.
-
-Examples:
-```
-# import Flash document and save as NanoFL document
-NanoFL.exe c:\myflash\myflash.xfl -export c:\mynanofl\mynanofl.nfl
-
-# load NanoFL document and export as PNG image
-NanoFL.exe c:\mynanofl\mynanofl.nfl -export c:\myimage.png
+NanoFL.exe <options>
 ```
 
 
@@ -32,9 +14,29 @@ Use next command to run NanoFL in batch mode (advantages: waiting for exit, corr
 ```
 nanoflc.exe <any_nanofl_options>
 ```
-		
-Examples:
+
+
+## Options
+
+Options sequence is important: NanoFL process options consecutive from the first to the last. Next options are supported:
+
+* `<path to the document to open>` - Just load specified document into editor.
+* `<path to js script file to execute>` - Load specified JavaScript file and execute the code.
+* `-export <output file path>` - Export or save current document depends on output file extension.
+* `-resize-fit <width>x<height>` - Resize document to fit specified size. `<width>` or `<height>` can be ommited.
+* `-generator <name>/<mode>` - Set document's generator and it's mode. If mode ommited, then the first mode will be used. For example: "CreateJS/HTML" or just "CreateJS".
+* `-scaleMode <mode>` - Set document's scale mode (`noScale`, `fit`, `fill`, `stretch` and `custom` are supported). Default is `noScale`.
+* `-script <js code>` - Run specified js code. See [scripts](/docs/scripts/).
+* `-fps` - Show frames per second HUD.
+* `-jsconsole` - Show debug console.
+
+
+## Examples:
+
 ```
-# load NanoFL document, export as PNG image and exit
-nanoflc.exe mynanofl\mynanofl.nfl -export myimage.png
+# import Flash document and save as NanoFL document
+nanoflc.exe c:\myflash\myflash.xfl -export c:\mynanofl\mynanofl.nfl
+
+# load NanoFL document and export as PNG image
+nanoflc.exe c:\mynanofl\mynanofl.nfl -export c:\myimage.png
 ```
