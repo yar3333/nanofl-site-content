@@ -8,53 +8,64 @@ Each plugin is just a `*.js` file in **plugins** application folder.
 Also, that folder may contain a directory with plugin-related files.
 By convection, this directory must be named same as a plugin.
 
-There are several types of plugins are supported:
+There are several types of the plugins are supported:
 
-* [Importer](#importer) - allow import graphics/sounds/fonts/etc from third-party formats into NanoFL documents;
-* [Exporter](#exporter) - allow export graphics/sounds/fonts/etc from NanoFL documents into third-party formats;
+* [Loader](#loader) - loading library items from files;
+* [Importer](#importer) - importing graphics/sounds/fonts/etc from third-party formats into NanoFL documents;
+* [Exporter](#exporter) - exporting graphics/sounds/fonts/etc from NanoFL documents into third-party formats;
 * [Filter](#filter) - a raster transformation applyed to symbol instances;
-* [Language](#language) - generator of the result files (source files on specified programming language);
-* [IDE](#ide) - generator of the solution/project files for specified code IDE.
+* [Generator](#generator) - generating files on save (compiling, publishing);
 
+
+<a name="loader"></a>
+
+## Loader
+Loader plugin is a class which implements `nanofl.ide.plugins.ILoaderPlugin` interface.
+
+Plugin file must contain registration code (executed on plugin load):
+```
+nanofl.engine.Plugins.registerLoader(new MyPluginClass());
+
+```
+Plugin file may not have any public variables/functions - core interacts with plugin only by reference from `registerLoader`.
+
+For example of the loader plugin written on Haxe, see [StdLoadersPlugin](https://bitbucket.org/nanofl/plugins/src/default/StdLoadersPlugin).
 
 <a name="importer"></a>
 
 ## Importer
-Importer plugin is a class which implements `models.common.plugins.IImporterPlugin` interface.
+Importer plugin is a class which implements `nanofl.ide.plugins.IImporterPlugin` interface.
 The main method of this class, called by NanoFL IDE, is `importDocument`.
 This method must store imported data to received `documentProperties` and `library` objects.
 If you need to save media files - use a path from `library.libraryDir`.
 
 Plugin file must contain registration code (executed on plugin load):
 ```
-models.common.Plugins.registerImporter(new MyPluginClass());
+nanofl.engine.Plugins.registerImporter(new MyPluginClass());
 
 ```
 Plugin file may not have any public variables/functions - core interacts with plugin only by reference from `registerImporter`.
 
-For example of importer plugin written on Haxe, see [FlashXflImporterPlugin](https://bitbucket.org/nanofl/plugins/src/default/FlashXflImporterPlugin).
+For example of the importer plugin written on Haxe, see [FlashImporterPlugin](https://bitbucket.org/nanofl/plugins/src/default/FlashImporterPlugin).
 
 
 <a name="exporter"></a>
 
 ## Exporter
-Exporter plugin is a class which implements `models.common.plugins.IExporterPlugin` interface.
+Exporter plugin is a class which implements `nanofl.ide.plugins.IExporterPlugin` interface.
 The main method of this class, called by NanoFL IDE, is `exportDocument`.
 This method must store data from received `documentProperties` and `library` objects to files of desired format.
 If you need to get base path to media files - use `library.libraryDir`.
 
 Plugin file must contain registration code (executed on plugin load):
 ```
-models.common.Plugins.registerExporter(new MyPluginClass());
+nanofl.engine.Plugins.registerExporter(new MyPluginClass());
 
 ```
 Plugin file may not have any public variables/functions -
 core interacts with plugin only by reference from `registerExporter`.
 
-There are not yet any examples of the exporter plugins, but you can look to
-[FlashXflExporterPlugin](https://bitbucket.org/nanofl/plugins/src/default/FlashXflExporterPlugin).
-This plugin is not ready, but it can be a good start point
-(just remember to change "Custom Build" to "Application" in plugin's project properties).
+For example of the exporter plugin written on Haxe, see [SvgExporterPlugin](https://bitbucket.org/nanofl/plugins/src/default/SvgExporterPlugin).
 
 
 <a name="filter"></a>
@@ -68,14 +79,14 @@ NanoFL contains [StdFiltersPlugin](https://bitbucket.org/nanofl/plugins/src/defa
 * [Drop Shadow](https://bitbucket.org/nanofl/plugins/src/default/StdFiltersPlugin/src/DropShadowFilterPlugin.hx) - draw a shadow;
 * [Glow](https://bitbucket.org/nanofl/plugins/src/default/StdFiltersPlugin/src/GlowFilterPlugin.hx) - glowing effect.
 
-Each plugin's filter class must implement `models.client.plugins.IFilterPlugin` and have two main points:
+Each plugin's filter class must implement `nanofl.engine.plugins.IFilterPlugin` and have two main points:
 
-* `properties` - array of special objects which describe plugin parameters (user will tune these parameters in NanoFL IDE);
+* `properties` - array of special objects which describe plugin parameters (user can tune these parameters in NanoFL IDE);
 * `getFilter` - method to get instance of EaselJS's [Filter](http://createjs.com/Docs/EaselJS/classes/Filter.html) class.
 
 Plugin file must contain registration code (executed on plugin load):
 ```
-models.common.Plugins.registerFilter(new MyPluginClass());
+nanofl.engine.Plugins.registerFilter(new MyPluginClass());
 
 ```
 Plugin file may not have any public variables/functions -
@@ -84,59 +95,23 @@ core interacts with plugin only by reference from `registerFilter`.
 The source code of the filter plugin concatenated to generated result file (`*.html` or `*.js`)
 if at least one of the plugin's filters was used in NanoFL document.
 
-<a name="language"></a>
+<a name="generator"></a>
 
-## Language
-Language plugin is a class which implements `models.common.plugins.ILanguagePlugin` interface.
+## Generator
+Generator plugin is a class which implements `nanofl.ide.plugins.IGeneratorPlugin` interface.
 The main method of this class, called by NanoFL IDE, is `generateFiles`.
-This method must generate code language files from data from received `documentProperties` and `library` objects.
+This method must generate files depend on specified `mode` from data from received `documentProperties` and `library` objects.
 
 Plugin file must contain registration code (executed on plugin load):
 ```
-models.common.Plugins.registerLanguage(new MyPluginClass());
+nanofl.engine.Plugins.registerGenerator(new MyPluginClass());
 
 ```
 Plugin file may not have any public variables/functions -
-core interacts with plugin only by reference from `registerLanguage`.
+core interacts with plugin only by reference from `registerGenerator`.
 
-There are several examples of language plugins.
+For example of the generator plugin written on Haxe, see [CreateJSGeneratorPlugin](https://bitbucket.org/nanofl/plugins/src/default/CreateJSGeneratorPlugin).
 
-Written on Haxe:
-
-* [NoneLanguagePlugin](https://bitbucket.org/nanofl/plugins/src/default/NoneLanguagePlugin),
-* [JavaScriptLanguagePlugin](https://bitbucket.org/nanofl/plugins/src/default/JavaScriptLanguagePlugin),
-* [HaxeLanguagePlugin](https://bitbucket.org/nanofl/plugins/src/default/HaxeLanguagePlugin).
-
-Written on TypeScript:
-
-* [TypeScriptLanguagePlugin](https://bitbucket.org/nanofl/plugins/src/default/TypeScriptLanguagePlugin).
-
-
-<a name="ide"></a>
-
-## IDE
-IDE plugin is a class which implements `models.common.plugins.IIdePlugin` interface.
-The main method of this class, called by NanoFL IDE, is `generateFiles`.
-This method must generate solution/project files from data from received `documentProperties` and `library` objects.
-
-Plugin file must contain registration code (executed on plugin load):
-```
-models.common.Plugins.registerIde(new MyPluginClass());
-
-```
-Plugin file may not have any public variables/functions -
-core interacts with plugin only by reference from `registerIde`.
-
-There are examples of language plugins.
-
-Written on Haxe:
-
-* [FlashDevelopIdePlugin](https://bitbucket.org/nanofl/plugins/src/default/FlashDevelopIdePlugin).
-
-Written on TypeScript:
-
-* [MsVisualStudio2013IdePlugin](https://bitbucket.org/nanofl/plugins/src/default/MsVisualStudio2013IdePlugin).
 
 ----------------------------------------------------------------------------------------------------
-
 <a href="https://bitbucket.org/nanofl/site/src/default/docs/write_plugin/index.md" target="_blank">Edit this page at bitbucket</a>
