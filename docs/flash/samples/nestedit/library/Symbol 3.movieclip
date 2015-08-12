@@ -6,7 +6,7 @@
 					<stroke type="solid" color="#FFFFFF" thickness="2" />
 				</strokes>
 				<figure>
-					<edge strokeIndex="0" edges="M-52.5,-27.25L87.5,-10.1M87.5,-9.85L-87.5,27.3" />
+					<edge strokeIndex="0" edges="M87.5,-9.85L-87.5,27.3M-52.5,-27.25L87.5,-10.1" />
 				</figure>
 			</shape>
 		</frame>

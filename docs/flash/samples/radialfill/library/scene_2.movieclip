@@ -3,7 +3,7 @@
 		<frame>
 			<shape>
 				<fills>
-					<fill type="radial" colors="#00FF00,#000000" ratios="0,1" cx="0" cy="0" r="1" fx="-0.63921568627451" />
+					<fill type="radial" colors="#00FF00,#000000" ratios="0,1" cx="0" cy="0" r="1" fx="-0.635294117647059" />
 				</fills>
 				<figure>
 					<polygon fillIndex="0">

@@ -3,12 +3,12 @@
 		<frame duration="158">
 			<shape>
 				<strokes>
-					<stroke type="solid" color="#FF0000" />
 					<stroke type="solid" color="#00CC00" />
+					<stroke type="solid" color="#FF0000" />
 				</strokes>
 				<figure>
-					<edge strokeIndex="0" edges="M23.05,265.95C582.82,-221.92,171,261.95" />
-					<edge strokeIndex="1" edges="M171,261.95L539,372.95" />
+					<edge strokeIndex="0" edges="M171,261.95L539,372.95" />
+					<edge strokeIndex="1" edges="M23.05,265.95C582.82,-221.92,171,261.95" />
 				</figure>
 			</shape>
 		</frame>
@@ -25,12 +25,12 @@
 		<frame duration="158">
 			<shape>
 				<strokes>
-					<stroke type="solid" color="#00CC00" />
 					<stroke type="solid" color="#FF0000" />
+					<stroke type="solid" color="#00CC00" />
 				</strokes>
 				<figure>
-					<edge strokeIndex="0" edges="M171,261.95L539,372.95" />
-					<edge strokeIndex="1" edges="M23.05,265.95C582.82,-221.92,171,261.95" />
+					<edge strokeIndex="0" edges="M23.05,265.95C582.82,-221.92,171,261.95" />
+					<edge strokeIndex="1" edges="M171,261.95L539,372.95" />
 				</figure>
 			</shape>
 		</frame>

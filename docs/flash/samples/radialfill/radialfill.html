@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <!--ALLOW_REGENERATION-->
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>radialfill</title>
-    </head>
-    <body style="margin:0; padding:0; font-size:0">
-		<canvas id="mainCanvas" width="520" height="390" style="background-color:#999999"></canvas>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>radialfill</title>
+	</head>
+	<body style="background-color:#999999; margin:0; padding:0; font-size:0; overflow:hidden">
+		<canvas id="mainCanvas" width="520" height="390" style="position:relative"></canvas>
 		<script src="http://code.createjs.com/createjs-2014.12.12.combined.js"></script>
 		<script src="http://player.nanofl.com/nanofl-1.0.0.js"></script>
-					<script>
-nanofl.Player.packedLibrary = "cy21:nanofl.engine.Libraryy5:itemsby5:sceneCy40:nanofl.engine.libraryitems.MovieClipItemay19:exportAsSpriteSheetfy4:loopty8:autoPlayty10:likeButtonfy7:_layersaCy19:nanofl.engine.Layery4:namey5:Labely4:typey6:normaly7:visiblety6:lockedfy11:parentIndexny10:_keyFramesaCy22:nanofl.engine.KeyFramey5:labely0:y8:durationi1y12:_motionTweenny9:_elementsacy35:nanofl.engine.elements.ShapeElementR14ty4:regYzy4:regXzy6:matrixcy25:nanofl.engine.geom.Matrixy1:ai1y1:bzy1:czy1:di1y2:txzy2:tyzgy5:edgesahy8:polygonsahy6:parentr7gCy31:nanofl.engine.elements.InstanceR14tR25zR26zR27cR28R29d130.7125000000004R30d-19.6625R31d10.1375R32d67.3625R33d154.45R34d119.95gy8:namePathy7:scene_1R10ny11:colorEffectny7:filtersahy7:libraryr0R37r7ggCR38R14tR25zR26zR27cR28R29d81.125R30d-56.4375R31d59.2R32d85.11250000000041R33i369R34i284gR39y7:scene_2R10nR41nR42ahR43r0R37r7gghy5:layerr5gghy15:layersContainerr2gghy11:linkedClassR20R39R2R43r0hgR40CR3aR4fR5tR6tR7fR8aCR9R10y4:autoR12R13R14tR15fR16nR17aCR18R19R20R21i1R22nR23acR24R14tR25zR26zR27cR28R29i1R30zR31zR32i1R33zR34zgR35ahR36acy26:nanofl.engine.geom.Polygony4:fillcy30:nanofl.engine.fills.RadialFilly6:colorsay9:%2300FF00y41:rgba(255%2C255%2C255%2C0.341176470588235)y9:%23FF100Ehy6:ratiosay1:0y17:0.768627450980392y1:1hy2:cxzy2:cyzy1:ri1y2:fxzy2:fyzgy8:contoursacy26:nanofl.engine.geom.ContourR35acy23:nanofl.engine.geom.Edgey2:x1d-1.22y2:y1d1.32y2:x2d-0.425y2:y2d1.5550000000000002y2:x3d0.37y2:y3d1.79gcR67R68d0.37R69d1.79R70d0.4R71d1.425R72d0.43R73d1.06gcR67R68d0.43R69d1.06R70d0.62R71d1.115R72d0.81R73d1.17gcR67R68d0.81R69d1.17R70d0.905R71d-0.06500000000000006R72i1R73d-1.3gcR67R68i1R69d-1.3R70d0.015000000000000013R71d-1.585R72d-0.97R73d-1.87gcR67R68d-0.97R69d-1.87R70d-1.095R71d-0.275R72d-1.22R73d1.32ghghy8:selectedfghR37r24ghR45r22gghR46r19gghR47R20R39R40R43r0hgR44CR3aR4fR5tR6tR7fR8aCR9R10R48R12R13R14tR15fR16nR17aCR18R19R20R21i1R22nR23acR24R14tR25zR26zR27cR28R29i1R30zR31zR32i1R33zR34zgR35ahR36acR49R50cR51R52aR53y9:%23000000hR56aR57R59hR60zR61zR62i1R63d-0.63921568627451R64zgR65acR66R35acR67R68d0.66R69d1.52R70d1.195R71d0.79R72d1.73R73d0.06gcR67R68d1.73R69d0.06R70d0.55R71d-0.725R72d-0.63R73d-1.51gcR67R68d-0.63R69d-1.51R70d-1.16R71d-0.775R72d-1.69R73d-0.04gcR67R68d-1.69R69d-0.04R70d-0.5149999999999999R71d0.74R72d0.66R73d1.52ghghR74fghR37r48ghR45r46gghR46r43gghR47R20R39R44R43r0hghy10:libraryDirR43g";
-		</script>
 		<script>
-			nanofl.Player.init(document.getElementById("mainCanvas"), 24, "fit");
+			var serializedLibrary = 'cy21:nanofl.engine.Libraryy5:itemsby5:sceneCy40:nanofl.engine.libraryitems.MovieClipItemay19:exportAsSpriteSheetfy4:loopty8:autoPlayty10:likeButtonfy7:_layersaCy19:nanofl.engine.Layery4:namey5:Labely4:typey6:normaly7:visiblety6:lockedfy11:parentIndexny10:_keyFramesaCy22:nanofl.engine.KeyFramey5:labely0:y8:durationi1y12:_motionTweenny9:_elementsacy35:nanofl.engine.elements.ShapeElementR14ty4:regYzy4:regXzy6:matrixcy25:nanofl.engine.geom.Matrixy1:ai1y1:bzy1:czy1:di1y2:txzy2:tyzgy5:edgesahy8:polygonsahy6:parentr7gCy31:nanofl.engine.elements.InstanceR14tR25zR26zR27cR28R29d130.7125000000004R30d-19.6625R31d10.1375R32d67.3625R33d154.45R34d119.95gy8:namePathy7:scene_1R10ny11:colorEffectny7:filtersahy7:libraryr0R37r7ggCR38R14tR25zR26zR27cR28R29d81.125R30d-56.4375R31d59.2R32d85.11250000000041R33i369R34i284gR39y7:scene_2R10nR41nR42ahR43r0R37r7gghy5:layerr5gghy15:layersContainerr2gghy11:linkedClassR20R39R2R43r0hgR40CR3aR4fR5tR6tR7fR8aCR9R10y4:autoR12R13R14tR15fR16nR17aCR18R19R20R21i1R22nR23acR24R14tR25zR26zR27cR28R29i1R30zR31zR32i1R33zR34zgR35ahR36acy26:nanofl.engine.geom.Polygony4:fillcy30:nanofl.engine.fills.RadialFilly6:colorsay9:%2300FF00y41:rgba(255%2C255%2C255%2C0.341176470588235)y9:%23FF100Ehy6:ratiosay1:0y17:0.768627450980392y1:1hy2:cxzy2:cyzy1:ri1y2:fxzy2:fyzgy8:contoursacy26:nanofl.engine.geom.ContourR35acy23:nanofl.engine.geom.Edgey2:x1d-1.22y2:y1d1.32y2:x2d-0.425y2:y2d1.5550000000000002y2:x3d0.37y2:y3d1.79gcR67R68d0.37R69d1.79R70d0.4R71d1.425R72d0.43R73d1.06gcR67R68d0.43R69d1.06R70d0.62R71d1.115R72d0.81R73d1.17gcR67R68d0.81R69d1.17R70d0.905R71d-0.06500000000000006R72i1R73d-1.3gcR67R68i1R69d-1.3R70d0.015000000000000013R71d-1.585R72d-0.97R73d-1.87gcR67R68d-0.97R69d-1.87R70d-1.095R71d-0.275R72d-1.22R73d1.32ghghy8:selectedfghR37r24ghR45r22gghR46r19gghR47R20R39R40R43r0hgR44CR3aR4fR5tR6tR7fR8aCR9R10R48R12R13R14tR15fR16nR17aCR18R19R20R21i1R22nR23acR24R14tR25zR26zR27cR28R29i1R30zR31zR32i1R33zR34zgR35ahR36acR49R50cR51R52aR53y9:%23000000hR56aR57R59hR60zR61zR62i1R63d-0.635294117647059R64zgR65acR66R35acR67R68d0.66R69d1.52R70d1.195R71d0.79R72d1.73R73d0.06gcR67R68d1.73R69d0.06R70d0.55R71d-0.725R72d-0.63R73d-1.51gcR67R68d-0.63R69d-1.51R70d-1.16R71d-0.775R72d-1.69R73d-0.04gcR67R68d-1.69R69d-0.04R70d-0.5149999999999999R71d0.74R72d0.66R73d1.52ghghR74fghR37r48ghR45r46gghR46r43gghR47R20R39R44R43r0hghy10:libraryDirR43g';
+			
+			nanofl.Player.init(document.getElementById("mainCanvas"), nanofl.DataTools.unserialize(serializedLibrary), 24, 'fit');
 		</script>
-    </body>
+	</body>
 </html>
