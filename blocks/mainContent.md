@@ -3,18 +3,19 @@
 ## Features
 
 * Open and simple self-descriptive files format (`XML`)
-* [Importing from Adobe Flash Documents ](/docs/flash/) (`*.svg`)  (`*.fla;*.xfl`)
-* [Importing from SVG file format](/docs/svg/) (`*.svg`)
+* [Importing from Adobe Flash Documents ](/docs/flash/) (`*.fla;*.xfl`)
+* [Importing/exporting from/into SVG file format](/docs/svg/) (`*.svg`)
 * Vector graphics (based on edges, polygons and boolean operations)
-* Raster images in the Library and on the Scene (`png`/`jpeg`)
+* Raster images in the Library and on the Scene (`png`/`jpeg`, rasterized `svg`)
 * Layers: groups, masks, tweens, guides
 * Effects: alpha, brightness, tint, advanced
-* Filters: Adjust Color, Blur, Drop Shadow, Glow (Need more? Write a plugin - its simple!)
+* Filters: Adjust Color, Blur, Drop Shadow, Glow (Need more? [Write a plugin](/docs/write_plugin/)!)
 * Linear and radial gradients, filling with a bitmap
 * Working with text on canvas (web fonts from local files and Google Fonts are supported)
-* Generating HTML on save: view result movie in your favorite browser
-* Generating project files for your favorite IDE on save
-* [CreateJS](http://createjs.com/)-based generated code
+* [Texture atlases](/docs/texture_atlases/)
+* Generating HTML on save: view result movie in your favorite browser (`CreateJSGenerator` plugin)
+* Generating project files for your favorite IDE on save (`CreateJSGenerator` plugin)
+* [CreateJS](http://createjs.com/)-based generated code (`CreateJSGenerator` plugin)
 * [Batch processing](/docs/command_line/)
 * [Scripts](/docs/scripts/) support
 
@@ -23,8 +24,6 @@
 
 Please, vote for [proposals](https://bitbucket.org/nanofl/nanofl/issues?kind=proposal&status=new) or create your own on bitbucket.
 
-* Import from Abode Flash `*.fla` files (no need to save as `*.xfl` anymore)
-([link](https://bitbucket.org/nanofl/nanofl/issue/1/import-from-abode-flash-fla-files))
 * Export into Abode Flash `*.xfl` and `*.fla` formats
 ([link](https://bitbucket.org/nanofl/nanofl/issue/2/export-into-abode-flash-xfl-and-fla))
 * Symbols Repository (sharing symbols with other developers)
@@ -35,8 +34,6 @@ Please, vote for [proposals](https://bitbucket.org/nanofl/nanofl/issues?kind=pro
 ([link](https://bitbucket.org/nanofl/nanofl/issue/5/special-layer-on-the-top-of-canvas-for))
 * Export into SVG
 ([link](https://bitbucket.org/nanofl/nanofl/issue/7/export-into-svg))
-* More base tools: pen and eraser
-([link](https://bitbucket.org/nanofl/nanofl/issue/8/more-base-tools-pen-and-eraser))
 * Publishing (compact all resources into one html file)
 ([link](https://bitbucket.org/nanofl/nanofl/issue/9/publishing-compact-all-resources-into-one))
 * Online version of the project

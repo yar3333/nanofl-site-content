@@ -1,12 +1,15 @@
 ## Plugins included
 
- * Importer from Adobe Flash
- * Importer from SVG
- * JavaScript language
- * TypeScript language
- * Haxe language
- * FlashDevelop IDE
- * MS Visual Studio 2013 IDE
+ * [Importer from Flash](/docs/flash/)
+ * [Importer from SVG](/docs/svg/)
+ * [Exporter into SVG](/docs/svg/)
+ * CreateJS generator
+ 
+	* JavaScript language
+	* TypeScript language
+	* Haxe language
+	* FlashDevelop IDE
+	* MS Visual Studio 2013 IDE
  
 <div style="height:40px">&nbsp;</div>
 

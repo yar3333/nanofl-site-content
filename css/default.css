@@ -28,6 +28,8 @@ h2 code { display:inline-block; margin-bottom:5px; font-size: 12px }
 
 hr { margin: 15px 0; }
 
+.clearfix { clear:both }
+
 small a { font-size: 14px }
 
 .wrapper { width: 1000px; margin: 0 auto; }
@@ -60,9 +62,12 @@ small a { font-size: 14px }
 	margin-right: 25px;
 }
 
-.mainSub { width: 260px; padding-left:20px }
+.mainSub { width:260px; padding-left:20px }
+.mainSub p { margin:0 }
+.mainSub ul ul { padding-left:20px }
+.mainSub li li { font-size:15px }
 
-.about { margin-bottom: 26px; }
+.about { margin-bottom:26px; }
 
 .about h1
 {
@@ -72,7 +77,7 @@ small a { font-size: 14px }
 	font-size: 18px;
 }
 
-.about p, .about a { font-size: 17px }
+.about p, .about a { font-size:17px }
 
 .about p
 {
