@@ -1,4 +1,4 @@
-<movieclip likeButton="true" linkedClass="myButton">
+<movieclip version="2.0.0" likeButton="true" linkedClass="myButton">
 	<layer name="Layer 1">
 		<frame>
 			<text x="-23.5" y="-20.8" width="47" height="41.65">

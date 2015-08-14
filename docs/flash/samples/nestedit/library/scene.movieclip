@@ -1,4 +1,4 @@
-<movieclip>
+<movieclip version="2.0.0">
 	<layer name="Label">
 		<frame>
 			<shape>
