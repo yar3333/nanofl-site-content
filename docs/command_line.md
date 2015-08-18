@@ -24,7 +24,7 @@ Options sequence is important: NanoFL process options consecutive from the first
 * `<path to js script file to execute>` - Load specified JavaScript file and execute the code.
 * `-export <output file path>` - Export or save current document depends on output file extension.
 * `-resize-fit <width>x<height>` - Resize document to fit specified size. `<width>` or `<height>` can be ommited.
-* `-generator <name>/<mode>` - Set document's generator and it's mode. If mode ommited, then the first mode will be used. For example: "CreateJS/HTML" or just "CreateJS".
+* `-generator <name>,<param1>=<value1>,<param2>=<value2>...` - Set document's generator and its parameters.
 * `-scaleMode <mode>` - Set document's [scale mode](/docs/scaleMode/) (`noScale`, `fit`, `fill`, `stretch` and `custom` are supported). Default is `noScale`.
 * `-script <js code>` - Run specified js code. See [scripts](/docs/scripts/).
 * `-fps` - Show frames per second HUD.

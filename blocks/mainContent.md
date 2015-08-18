@@ -12,10 +12,11 @@
 * Filters: Adjust Color, Blur, Drop Shadow, Glow (Need more? [Write a plugin](/docs/write_plugin/)!)
 * Linear and radial gradients, filling with a bitmap
 * Working with text on canvas (web fonts from local files and Google Fonts are supported)
-* [Texture atlases](/docs/texture_atlases/)
+* SpriteSheets / Texture Atlases in library ([CreateJS/Zoe](http://www.createjs.com/zoe) format is only supported for a while)
 * Generating HTML on save: view result movie in your favorite browser (`CreateJSGenerator` plugin)
 * Generating project files for your favorite IDE on save (`CreateJSGenerator` plugin)
 * [CreateJS](http://createjs.com/)-based generated code (`CreateJSGenerator` plugin)
+* [Generating Texture Atlases](/docs/generate_texture_atlases/)
 * [Batch processing](/docs/command_line/)
 * [Scripts](/docs/scripts/) support
 

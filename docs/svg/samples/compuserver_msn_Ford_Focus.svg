@@ -10,10 +10,9 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xml:space="preserve"
-   width="548.95361"
+   width="550"
    height="303.17667"
    style="fill-rule:evenodd"
-   viewBox="0 0 215.9 279.4"
    id="svg2"
    sodipodi:version="0.32"
    inkscape:version="0.46dev+devel"
@@ -740,6 +739,9 @@
    y1="128.93201"
    x2="79.142303"
    y2="128.93201" /></defs>
+
+<g transform="translate(150,0)">
+
  <path
    id="_141515936"
    class="fil102"
@@ -3047,4 +3049,4 @@
      style="fill:#000000;fill-rule:evenodd"
      d="M 444.16056,351.06852 C 444.10956,351.06852 444.05866,351.08542 444.00766,351.08542 C 444.05866,351.17012 444.10956,351.25532 444.19466,351.32352 C 444.36436,351.49332 444.56866,351.59542 444.82336,351.61222 L 447.45806,351.74822 C 447.28846,351.61222 447.06786,351.49332 446.81256,351.37432 C 446.04726,351.05142 445.16376,350.94932 444.16056,351.06852 L 444.16056,351.06852 z"
      class="fil220"
-     id="_142267784" /></g></svg>
+     id="_142267784" /></g></g></svg>

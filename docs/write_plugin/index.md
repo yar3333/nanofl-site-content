@@ -4,16 +4,16 @@ NanoFL has several points to be extended by plugins.
 You can write plugin on TypeScript or Haxe (or even on pure JavaScript).
 Using NanoFL PluginAPI declaration files (`nanofl.d.ts` for TypeScript and `*.hx` for Haxe) making development simple.
 
-Each plugin is just a `*.js` file in **plugins** application folder.
-Also, that folder may contain a directory with plugin-related files.
-By convection, this directory must be named same as a plugin.
+Each plugin is a class inside a `*.js` file in **plugins** application folder.
+Also, this folder may contain a directory with plugin-related files.
+By convection, that directory must be named same as a plugin.
 
 There are several types of the plugins are supported:
 
 * [Loader](#loader) - loading library items from files;
-* [Importer](#importer) - importing graphics/sounds/fonts/etc from third-party formats into NanoFL documents;
-* [Exporter](#exporter) - exporting graphics/sounds/fonts/etc from NanoFL documents into third-party formats;
-* [Filter](#filter) - a raster transformation applyed to symbol instances;
+* [Importer](#importer) - importing from third-party formats into NanoFL documents;
+* [Exporter](#exporter) - exporting from NanoFL documents into third-party formats;
+* [Filter](#filter) - a raster transformation for a symbol instances;
 * [Generator](#generator) - generating files on save (compiling, publishing);
 
 
@@ -27,7 +27,6 @@ Plugin file must contain registration code (executed on plugin load):
 nanofl.engine.Plugins.registerLoader(new MyPluginClass());
 
 ```
-Plugin file may not have any public variables/functions - core interacts with plugin only by reference from `registerLoader`.
 
 For example of the loader plugin written on Haxe, see [StdLoadersPlugin](https://bitbucket.org/nanofl/plugins/src/default/StdLoadersPlugin).
 
@@ -44,7 +43,6 @@ Plugin file must contain registration code (executed on plugin load):
 nanofl.engine.Plugins.registerImporter(new MyPluginClass());
 
 ```
-Plugin file may not have any public variables/functions - core interacts with plugin only by reference from `registerImporter`.
 
 For example of the importer plugin written on Haxe, see [FlashImporterPlugin](https://bitbucket.org/nanofl/plugins/src/default/FlashImporterPlugin).
 
@@ -62,8 +60,6 @@ Plugin file must contain registration code (executed on plugin load):
 nanofl.engine.Plugins.registerExporter(new MyPluginClass());
 
 ```
-Plugin file may not have any public variables/functions -
-core interacts with plugin only by reference from `registerExporter`.
 
 For example of the exporter plugin written on Haxe, see [SvgExporterPlugin](https://bitbucket.org/nanofl/plugins/src/default/SvgExporterPlugin).
 
@@ -89,8 +85,6 @@ Plugin file must contain registration code (executed on plugin load):
 nanofl.engine.Plugins.registerFilter(new MyPluginClass());
 
 ```
-Plugin file may not have any public variables/functions -
-core interacts with plugin only by reference from `registerFilter`.
 
 The source code of the filter plugin concatenated to generated result file (`*.html` or `*.js`)
 if at least one of the plugin's filters was used in NanoFL document.
@@ -99,19 +93,16 @@ if at least one of the plugin's filters was used in NanoFL document.
 
 ## Generator
 Generator plugin is a class which implements `nanofl.ide.plugins.IGeneratorPlugin` interface.
-The main method of this class, called by NanoFL IDE, is `generateFiles`.
-This method must generate files depend on specified `mode` from data from received `documentProperties` and `library` objects.
+The main method of this class, called by NanoFL IDE, is `generate`.
+This method must generate files from received `documentProperties` and `library` objects.
 
 Plugin file must contain registration code (executed on plugin load):
 ```
 nanofl.engine.Plugins.registerGenerator(new MyPluginClass());
 
 ```
-Plugin file may not have any public variables/functions -
-core interacts with plugin only by reference from `registerGenerator`.
 
 For example of the generator plugin written on Haxe, see [CreateJSGeneratorPlugin](https://bitbucket.org/nanofl/plugins/src/default/CreateJSGeneratorPlugin).
-
 
 ----------------------------------------------------------------------------------------------------
 <a href="https://bitbucket.org/nanofl/site/src/default/docs/write_plugin/index.md" target="_blank">Edit this page at bitbucket</a>
