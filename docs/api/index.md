@@ -54,16 +54,18 @@ Helper methods applicable to `createjs.DisplayObject`.
 
 ### Static methods
 
-* `cache(myObj:DiplayObject)` - cache objects in the tree with filters. In most cases NanoFL cache objects automatically. Use this method only if something going wrong.
-* `uncache(myObj:DiplayObject)` - uncache `myObj` display object and dependent objects (at least the parent objects). In most cases NanoFL uncache objects automatically. Use this method only if something going wrong.
+* `smartCache(myObj:DiplayObject)` - cache objects in the tree (depend on filters and masks). In most cases NanoFL cache objects automatically.
+* `smartUncache(myObj:DiplayObject)` - uncache `myObj` display object and dependent objects (depend on masks). In most cases NanoFL uncache objects automatically.
 * `getOuterBounds(myObj:DiplayObject)` - returns object bounds include filters bounds (invariant to cache).
+* `getInnerBounds(myObj:DiplayObject)` - returns object bounds exclude filters bounds (invariant to cache).
 * `dump(myObj:DiplayObject)` - trace objects tree.
 
 Examples:
 ```
-nanofl.DisplayObjectTools.cache(myMovieClip);
-nanofl.DisplayObjectTools.uncache(myMovieClip);
+nanofl.DisplayObjectTools.smartCache(myMovieClip);
+nanofl.DisplayObjectTools.smartUncache(myMovieClip);
 var bounds = nanofl.DisplayObjectTools.getOuterBounds(myMovieClip);
+var bounds = nanofl.DisplayObjectTools.getInnerBounds(myMovieClip);
 nanofl.DisplayObjectTools.dump(myMovieClip);
 ```
 
