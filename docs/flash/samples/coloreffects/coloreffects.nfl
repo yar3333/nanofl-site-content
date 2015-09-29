@@ -4,6 +4,6 @@
 	<param name="backgroundColor" value="#FFFFFF" />
 	<param name="framerate" value="24" />
 	<param name="scaleMode" value="fit" />
-	<param name="generator" value="CreateJS/HTML" />
+	<param name="generator" value="CreateJS,mode=HTML" />
 	<param name="useTextureAtlases" value="false" />
 </nanofl>
