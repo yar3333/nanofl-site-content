@@ -13,24 +13,29 @@ nanoflc.exe mydoc.nfl -script "app.document.properties.width = 1000; app.documen
 
 First of all, prepare `*.js` file:
 ```js
-var app = window.app; // link to NanoFL application
-
-var document = app.document; // current NanoFL document
+var document = app.document; // current NanoFL document; `app` is a global link to NanoFL API root object
 var editor = document.editor; // editor allow you to modify document
+var shape = editor.activeLayer.shape.originalElement; // shape to draw to
 
-editor.set_zoomLevel(50);
+editor.zoomLevel = 50;
 
-var curve = new nanofl.engine.geom.StrokeEdge(1,1,50,1,100,100,new models.common.strokes.SolidStroke("red"));
-editor.get_activeLayer().shape.get_element().combine_strokeEdge(curve);
+var curve = new nanofl.engine.geom.StrokeEdge(1, 1, 50, 1, 100, 100, new nanofl.engine.strokes.SolidStroke("red"));
+shape.combine(new nanofl.engine.elements.ShapeElement([ curve ]));
 
-var line = new nanofl.engine.geom.StrokeEdge(100,100,350,100,null,null,new models.common.strokes.SolidStroke("green",3));
-editor.get_activeLayer().shape.get_element().combine_strokeEdge(line);
+var line = new nanofl.engine.geom.StrokeEdge(100, 100, 350, 100, null, null, new nanofl.engine.strokes.SolidStroke("green", 3));
+shape.combine(new nanofl.engine.elements.ShapeElement([ line ]));
 
-var textRun = new nanofl.TextRun("Hello World!","green","Arial","",40,"left",0,null,null);
-var textField = new nanofl.engine.elements.TextElement("",0,0,false,false,[textRun],null);
+var textRun = new nanofl.TextRun("Hello World!");
+textRun.fillColor = "green";
+textRun.family = "Arial";
+textRun.size = 40;
+
+var textField = new nanofl.engine.elements.TextElement("", 0, 0, false, false, [textRun]);
 textField.matrix.tx = 120;
 textField.matrix.ty = 40;
-editor.get_activeLayer().addElement(textField);
+editor.activeLayer.addElement(textField);
+
+editor.update();
 ```
 
 Next, run your NanoFL and specify script name as argument:
