@@ -2,45 +2,47 @@
 
 ## Features
 
+### Version 1.x.x
+
 * Open and simple self-descriptive files format (`XML`)
 * [Importing from Adobe Flash Documents ](/docs/flash/) (`*.fla;*.xfl`)
-* [Importing/exporting from/into SVG file format](/docs/svg/) (`*.svg`)
 * Vector graphics (based on edges, polygons and boolean operations)
 * Raster images in the Library and on the Scene (`png`/`jpeg`, rasterized `svg`)
 * Layers: groups, masks, tweens, guides
 * Effects: alpha, brightness, tint, advanced
-* Filters: Adjust Color, Blur, Drop Shadow, Glow (Need more? [Write a plugin](/docs/write_plugin/)!)
+* Filters: Adjust Color, Blur, Drop Shadow, Glow
 * Linear and radial gradients, filling with a bitmap
 * Working with text on canvas (web fonts from local files and Google Fonts are supported)
-* SpriteSheets / Texture Atlases in library ([CreateJS/Zoe](http://www.createjs.com/zoe) format is only supported for a while)
-* Generating HTML on save: view result movie in your favorite browser (`CreateJSGenerator` plugin)
+* Generating HTML on save (`CreateJSGenerator` plugin)
 * Generating project files for your favorite IDE on save (`CreateJSGenerator` plugin)
 * [CreateJS](http://createjs.com/)-based generated code (`CreateJSGenerator` plugin)
+* Plugin system (Filters, Importers, Exporters, Generators)
+
+### Version 2.0.0
+* [Scale Mode support](http://dev.nanofl.com/docs/scaleMode/)
+* [Importing from SVG file format](/docs/svg/) (`*.svg`)
+* [Exporting into SVG file format](/docs/svg/) (`*.svg`)
+* SpriteSheets / Texture Atlases in library ([CreateJS/Zoe](http://www.createjs.com/zoe) format is only supported for a while)
 * [Generating Texture Atlases](/docs/generate_texture_atlases/)
 * [Batch processing](/docs/command_line/)
 * [Scripts](/docs/scripts/) support
-
+* Plugin system: Library Item Loaders
 
 ## Road map
 
 Please, vote for [proposals](https://bitbucket.org/nanofl/nanofl/issues?kind=proposal&status=new) or create your own on bitbucket.
 
-* Export into Abode Flash `*.xfl` and `*.fla` formats
-([link](https://bitbucket.org/nanofl/nanofl/issue/2/export-into-abode-flash-xfl-and-fla))
-* Symbols Repository (sharing symbols with other developers)
-([link](https://bitbucket.org/nanofl/nanofl/issue/3/symbols-repository-sharing-symbols-with))
-* Blender 3D files in the library with ThreeJS backend
-([link](https://bitbucket.org/nanofl/nanofl/issue/4/blender-3d-files-in-the-library-with))
-* Special layer on the top of canvas for HTML input elements
-([link](https://bitbucket.org/nanofl/nanofl/issue/5/special-layer-on-the-top-of-canvas-for))
-* Export into SVG
-([link](https://bitbucket.org/nanofl/nanofl/issue/7/export-into-svg))
-* Publishing (compact all resources into one html file)
-([link](https://bitbucket.org/nanofl/nanofl/issue/9/publishing-compact-all-resources-into-one))
-* Online version of the project
-([link](https://bitbucket.org/nanofl/nanofl/issue/12/online-version-of-the-project))
-* [PixiJS](http://www.pixijs.com) support
-([link](https://bitbucket.org/nanofl/nanofl/issue/13/pixijs-support))
+* [CreateJS generator: WebGL support (SpriteStage class)]()
+* [Blender 3D files in the library with ThreeJS backend](https://bitbucket.org/nanofl/nanofl/issue/4/blender-3d-files-in-the-library-with)
+* [Plugin system: Postprocessors (Cordova support)]()
+* [Special layer on the top of canvas for HTML input elements](https://bitbucket.org/nanofl/nanofl/issue/5/special-layer-on-the-top-of-canvas-for)
+* [Export into SVG: text support]()
+* [Flash importer: DOMTFLText support]()
+* [Basic publishing]()
+* [PixiJS](http://www.pixijs.com) [generator](https://bitbucket.org/nanofl/nanofl/issue/13/pixijs-support)
+* [Flash exporter](https://bitbucket.org/nanofl/nanofl/issue/2/export-into-abode-flash-xfl-and-fla)
+* [Publishing: compact all resources into one html file](https://bitbucket.org/nanofl/nanofl/issue/9/publishing-compact-all-resources-into-one)
+* [Online version of the project](https://bitbucket.org/nanofl/nanofl/issue/12/online-version-of-the-project)
 
 
 ## Credits
