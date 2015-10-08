@@ -1,0 +1,6 @@
+syntax: glob
+.htaccess
+config.xml
+favicon.ico
+index.n
+haquery/
