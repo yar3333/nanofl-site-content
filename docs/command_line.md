@@ -12,7 +12,7 @@ NanoFL.exe <options>
 ## Batch mode
 Use next command to run NanoFL in batch mode (advantages: waiting for exit, correct exit code and relative paths support):
 ```
-nanoflc.exe <any_nanofl_options>
+nanoflc.exe <options>
 ```
 
 
@@ -20,8 +20,8 @@ nanoflc.exe <any_nanofl_options>
 
 Options sequence is important: NanoFL process options consecutive from the first to the last. Next options are supported:
 
-* `<path to the document to open>` - Just load specified document into editor.
-* `<path to js script file to execute>` - Load specified JavaScript file and execute the code.
+* `<path to the document to load/import>` - Just load specified document into editor.
+* `<path to js/jsnf script file to execute>` - Load specified JavaScript file and execute the code.
 * `-export <output file path>` - Export or save current document depends on output file extension.
 * `-resize-fit <width>x<height>` - Resize document to fit specified size. `<width>` or `<height>` can be ommited.
 * `-generator <name>,<param1>=<value1>,<param2>=<value2>...` - Set document's generator and its parameters.

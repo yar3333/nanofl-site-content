@@ -1,4 +1,4 @@
-<img src="/images/screen.png" width="100%" />
+<img src="/images/screen.png" style="border: solid 1px #ccc" />
 
 ## Features
 
@@ -32,16 +32,13 @@
 
 Please, vote for [proposals](https://bitbucket.org/nanofl/nanofl/issues?kind=proposal&status=new) or create your own on bitbucket.
 
-* [CreateJS generator: WebGL support (SpriteStage class)]()
-* [Blender 3D files in the library with ThreeJS backend](https://bitbucket.org/nanofl/nanofl/issue/4/blender-3d-files-in-the-library-with)
-* [Plugin system: Postprocessors (Cordova support)]()
-* [Special layer on the top of canvas for HTML input elements](https://bitbucket.org/nanofl/nanofl/issue/5/special-layer-on-the-top-of-canvas-for)
-* [Export into SVG: text support]()
-* [Flash importer: DOMTFLText support]()
-* [Basic publishing]()
+* [CreateJS generator: WebGL support (SpriteStage class)](https://bitbucket.org/nanofl/nanofl/issues/47/createjs-generator-webgl-support)
+* [Plugin system: Publishers](https://bitbucket.org/nanofl/nanofl/issues/51/plugin-system-publishers)
+* [HTML Publisher](https://bitbucket.org/nanofl/nanofl/issues/50/html-publisher)
+* [Cordova Publisher](https://bitbucket.org/nanofl/nanofl/issues/48/cordova-publisher)
+* [HTMLCompact Publisher (all resources in one html file)](https://bitbucket.org/nanofl/nanofl/issues/9/htmlcompact-publisher-all-resources-in-one)
 * [PixiJS](http://www.pixijs.com) [generator](https://bitbucket.org/nanofl/nanofl/issue/13/pixijs-support)
-* [Flash exporter](https://bitbucket.org/nanofl/nanofl/issue/2/export-into-abode-flash-xfl-and-fla)
-* [Publishing: compact all resources into one html file](https://bitbucket.org/nanofl/nanofl/issue/9/publishing-compact-all-resources-into-one)
+* [Flash Exporter](https://bitbucket.org/nanofl/nanofl/issue/2/export-into-abode-flash-xfl-and-fla)
 * [Online version of the project](https://bitbucket.org/nanofl/nanofl/issue/12/online-version-of-the-project)
 
 

@@ -28,7 +28,7 @@ We are ready to add text. Click on **Text Tool** at the left toolbar and click o
 Switch to select mode (click on **Select Tool** toolbar button) and try to select objects on the scene by clicking them.
 Use left mouse button to move objects to desired places.
 
-Let convert our object to symbol. Select all by pressing **A** and press **F8**:
+Let convert our object to symbol. Select all by pressing **Ctrl+A** and press **F8**:
 
 ![NanoFL IDE screenshot 5](screen5.png)
 
