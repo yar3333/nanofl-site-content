@@ -19,7 +19,7 @@
 * Plugin system (Filters, Importers, Exporters, Generators)
 
 ### Version 2.0.0
-* [Scale Mode support](http://dev.nanofl.com/docs/scaleMode/)
+* [Scale Mode support](/docs/scaleMode/)
 * [Importing from SVG file format](/docs/svg/) (`*.svg`)
 * [Exporting into SVG file format](/docs/svg/) (`*.svg`)
 * SpriteSheets / Texture Atlases in library ([CreateJS/Zoe](http://www.createjs.com/zoe) format is only supported for a while)

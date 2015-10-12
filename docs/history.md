@@ -11,7 +11,7 @@
 * New plugin type `generator` (to generate additional files on save).
 * [Batch mode support](/docs/command_line/).
 * Control [scripts](/docs/scripts/) support (like JSFL in Flash).
-* Generating [Texture atlases](/docs/texture_atlases/).
+* Generating [Texture atlases](/docs/generate_texture_atlases/).
 * Texture Atlases as library items.
 
 
