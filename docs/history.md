@@ -1,6 +1,13 @@
 # NanoFL IDE version history
 
 
+## Version 2.0.1 `2015-10-15`
+
+* Font format name bugfix (OET -> EOT)
+* Avoid administrator rights when importing from FLA (unzip bugfix)
+* Blur focus from input on click bugfix
+
+
 ## Version 2.0.0 `2015-10-09`
 
 * Major bugfixes and stability improvements.
