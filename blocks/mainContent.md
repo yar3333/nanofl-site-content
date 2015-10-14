@@ -3,7 +3,6 @@
 ## Features
 
 ### Version 1.x.x
-
 * Open and simple self-descriptive files format (`XML`)
 * [Importing from Adobe Flash Documents ](/docs/flash/) (`*.fla;*.xfl`)
 * Vector graphics (based on edges, polygons and boolean operations)
@@ -29,9 +28,6 @@
 * Plugin system: Library Item Loaders
 
 ## Road map
-
-Please, vote for [proposals](https://bitbucket.org/nanofl/nanofl/issues?kind=proposal&status=new) or create your own on bitbucket.
-
 * [CreateJS generator: WebGL support (SpriteStage class)](https://bitbucket.org/nanofl/nanofl/issues/47/createjs-generator-webgl-support)
 * [Plugin system: Publishers](https://bitbucket.org/nanofl/nanofl/issues/51/plugin-system-publishers)
 * [HTML Publisher](https://bitbucket.org/nanofl/nanofl/issues/50/html-publisher)
@@ -43,7 +39,6 @@ Please, vote for [proposals](https://bitbucket.org/nanofl/nanofl/issues?kind=pro
 
 
 ## Credits
-
 * [jQuery](http://jquery.com/) framework, jQuery Foundation
 * [CreateJS](http://www.createjs.com/) framework, gskinner
 * [Silk Icons](http://www.famfamfam.com/lab/icons/silk/), Mark James
