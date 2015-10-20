@@ -127,6 +127,10 @@ li
 }
 .footer p { display: inline-block; padding: 0 20px }
 
+.markdown
+{
+	color: #666;
+}
 
 .markdown img[align=left]
 {
@@ -140,4 +144,20 @@ li
     margin-bottom: 5px;
     margin-left: 30px;
     margin-top: 5px;
+}
+
+.markdown .spoiler
+{
+	background-color: #eee;
+	padding: 5px 10px;
+	border: solid 1px #666;
+	margin: 15px 0;
+	clear: both;
+	overflow: hidden;
+	font-size: 14px;
+}
+
+.markdown h3
+{
+	margin-top: 15px;
 }
