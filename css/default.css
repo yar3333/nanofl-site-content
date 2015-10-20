@@ -126,3 +126,18 @@ li
 	color: #fff;
 }
 .footer p { display: inline-block; padding: 0 20px }
+
+
+.markdown img[align=left]
+{
+    margin-bottom: 5px;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+.markdown img[align=right]
+{
+    margin-bottom: 5px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
