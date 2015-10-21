@@ -37,7 +37,7 @@ Here's what we know about the edges:
 
 So, on the right you can see the 5 edges: two blue and three dark yellow.
 
-<div class="spoiler"><img src="//habrastorage.org/files/b1d/39b/6dd/b1d39b6dd41542b3b2f3b71107fe6022.gif" align="right"/>Quadratic Bezier curve - the simplest case where the curve has a single control point and, in fact, is drawn inside the triangle given its three vertices. An excellent illustration of Wikipedia:</div>
+<div class="spoiler"><img src="//habrastorage.org/files/b1d/39b/6dd/b1d39b6dd41542b3b2f3b71107fe6022.gif" align="right"/>Quadratic Bezier curve - the simplest case where the curve has a single control point and, in fact, is drawn inside the triangle given its three vertices. An excellent illustration from Wikipedia:</div>
 
 What we know about the polygones:
 <img src="3.png" align="left" />
