@@ -3,16 +3,15 @@
 
 <img src="1.png" align="left" width="400" />
 
-A long time ago in a galaxy far, far away (ie more than a year ago, and outside the default country)
+A long time ago in a galaxy far, far away (ie more than a year ago, and outside of the default country)
 one web developer decided to write a <a href="http://nanofl.com/">self-made Flash</a>
-(he was not without delusions of grandeur, of course). The problem then seemed difficult
-and very interesting. This article will be about some issues that he meet on this way.
+(he was not without delusions of grandeur, of course). The problem back then seemed difficult
+and very interesting. This article will be about some issues that he met on this way.
 
-Those who draw in Flash knows that the shapes in it (filled areas)
+Those who draw in Flash know that the shapes in it (filled areas)
 within the same layer never overlap, and the lines are always 
 drawn on top of the filled figures. This approach is, in my view, a nice plus -
-you have an image that you see. However, when writing a vector editor, 
-this leads to the necessity of solving the problem to calculate the union of the
+you have an image that you can see. However, writing a vector editor leads to the necessity of solving the problem to calculate the union of the
 drawable objects (lines, filled areas). Below I will try to show how it can be done step-by-step.
 
 <div class="spoiler" style="margin-top:50px">
@@ -21,7 +20,7 @@ drawable objects (lines, filled areas). Below I will try to show how it can be d
 
 <img src="2.png" align="right" height="250" />
 
-For simplicity, I will refer further <b>polygons</b> filled areas bounded by straight lines and quadratic Bezier curves. As a rule, at the mention of the <b>edges</b>, I will keep in mind the visible stroke straight or curved segments.
+For simplicity, further I will refer to filled areas bounded by straight lines and quadratic Bezier curves as <b>polygons</b>. As a rule, mentiontioning the <b>edges</b>, I will keep in mind the visible stroke straight or curved segments.
 
 
 Initial data
@@ -50,12 +49,12 @@ What we know about the polygones:
  * can be non-convex;
  * may have "holes" (that is, the area defined by straight/curved segments, where there is no filling).
 
-In light of the fact that the polygon - a complex object, we shall describe it as a closed external contour + set of unintersected inner contours (holes).
+In light of the fact that a polygon is a complex object, we shall describe it as a closed external contour + set of unintersected inner contours (holes).
 
 
 Subtasks
 --------
-It is clear that the presence of the union of two of vector images is a difficult task, therefore I break it down into several sub-tasks. That's what I got:
+It is clear that the presence of the union of two of vector images is a difficult task, therefore I will break it down into several sub-tasks. That's what I've got:
 
  * search the intersection of all segments of the first image and all segments of the second image and break segments by the found points;
  * search all contours (closed chain segments) on a combination of segments of two images;
@@ -67,7 +66,7 @@ It is clear that the presence of the union of two of vector images is a difficul
 
 As a result of all these actions in the original image, we can expect the desired result of the union.
 
-I think it is clear that each of the subtasks is a sometimes non-trivial problem. Therefore, we consider them separately.
+I think it is clear that each of the subtasks is a sometimes non-trivial problem. Therefore, we will consider them separately.
 
 
 Calculate the intersection point of two segments
@@ -78,7 +77,7 @@ There are different kinds of the segments, so consider three possible cases sepa
 
 ### The two straight segments ###
 
-As you know, find the intersection of two straight segments is not particularly difficult, we need only remember that the calculations is convenient to represent them in a parametric form (formula y = kx + b has a fatal flaw: low precision for nearly-vertical lines):
+As you know, finding the intersection of the two straight segments is not particularly difficult, we need only remember that for the calculations it is convenient to represent them in a parametric form (formula y = kx + b has a fatal flaw: low precision for nearly-vertical lines):
 <img src="4.png" align="right" />
 
 ```js
@@ -103,7 +102,7 @@ Ym = Ys1 + (Yd1-Ys1) * t1
 
 ### Bezier curve and a straight segment ###
 
-The intersection of a Bezier curve and the straight segment is not so easy, but it is solved analytically, especially if pre guess rotate the segment and the curve so that the segment has become a strictly horizontal:
+The intersection of a Bezier curve and the straight segment is not so easy, but it is solved analytically, especially if we pre guess and rotate the segment and the curve so that the segment has become a strictly horizontal:
 <img src="5.png" align="left" width="240" />
 
 ```js
