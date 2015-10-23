@@ -1,6 +1,18 @@
 # NanoFL IDE version history
 
 
+## Version 2.1.0 `2015-10-23`
+
+* Add Cut/Copy/Paste into the Timeline context menu.
+* "Test" command break next document saves bugfix.
+* Double click/Alt+click on the frame to select subframes too.
+* Transform: preserve stroke thickness bugfix.
+* Select inserted elements after pasting into editor (shapes not selected yet).
+* Drag&drop improvements and bugfixes.
+* Preferences: add "check new version period" option.
+* Preferences: add "generator for new documents" option (default is CreateJS in HTML mode).
+* Linux-related bugfix (basic features are tested on Kubuntu 15/Firefox 37).
+
 ## Version 2.0.1 `2015-10-15`
 
 * Font format name bugfix (OET -> EOT)
