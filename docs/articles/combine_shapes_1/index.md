@@ -1,4 +1,4 @@
-﻿Calculate shapes union. Part 1
+﻿Calculate vector shapes union. Part 1
 ===============================================
 
 <img src="1.png" align="left" width="400" />
