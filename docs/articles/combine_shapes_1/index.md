@@ -15,7 +15,7 @@ you have an image that you can see. However, writing a vector editor leads to th
 drawable objects (lines, filled areas). Below I will try to show how it can be done step-by-step.
 
 <div class="spoiler" style="margin-top:50px">
-	This article - an attempt to describe the decision as the author sees it. Far from perfect. The author is grateful for helpful ideas about improving the algorithm.
+	This article is an attempt to describe the decision as the author sees it. Far from perfect. The author is grateful for helpful ideas about improving the algorithm.
 </div>
 
 <img src="2.png" align="right" height="250" />
@@ -36,9 +36,9 @@ Here's what we know about the edges:
 
 So, on the right you can see the 5 edges: two blue and three dark yellow.
 
-<div class="spoiler"><img src="//habrastorage.org/files/b1d/39b/6dd/b1d39b6dd41542b3b2f3b71107fe6022.gif" align="right"/>Quadratic Bezier curve - the simplest case where the curve has a single control point and, in fact, is drawn inside the triangle given its three vertices. An excellent illustration from Wikipedia:</div>
+<div class="spoiler"><img src="//habrastorage.org/files/b1d/39b/6dd/b1d39b6dd41542b3b2f3b71107fe6022.gif" align="right"/>Quadratic Bezier curve is the simplest case where the curve has a single control point and, in fact, is drawn inside the triangle given its three vertices. An excellent illustration from Wikipedia:</div>
 
-What we know about the polygones:
+What we know about the polygons:
 <img src="3.png" align="left" />
 
  * limited to straight or curved segments;
