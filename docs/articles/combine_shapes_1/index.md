@@ -145,7 +145,7 @@ Solving this quadratic equation, we find the value t1 (and there can be two). Fo
 <img src="6.png" align="right" width="350" /> Analytically calculate the point of intersection of two quadratic Bezier curves (there are up to 4 points) is not simple: the difficulty is so high that even the resentment comes MathCAD, giving out messages about too long formulas. Also, as far as I understand the situation, in this case, will have to work with complex numbers. Fortunately, there are numerical iterative methods for obtaining the points of intersection of arbitrary curves with a given accuracy. Everything is simple:
 
  1. If both current segments are smaller than the specified precision - approximate their by straight segments and calculate intersection point.
- 2. If at least one of the segments more precision - we beat it in two (more or less equal) parts and recursively apply the algorithm to the received segments. 
+ 2. If at least one of the segments is longer than precision - we beat it in two (more or less equal) parts and recursively apply the algorithm to the received segments. 
 
 Here you can do optimization: pre-check segments overlapping by bounding boxes and if no, then stop the current branch of recursion.
 
