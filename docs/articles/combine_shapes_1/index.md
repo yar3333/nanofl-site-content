@@ -1,4 +1,4 @@
-﻿Calculate vector shapes union. Part 1
+﻿﻿Calculate vector shapes union. Part 1
 ===============================================
 
 <img src="1.png" align="left" width="400" />
@@ -41,15 +41,15 @@ So, on the right you can see the 5 edges: two blue and three dark yellow.
 What we know about the polygons:
 <img src="3.png" align="left" />
 
- * limited to straight or curved segments;
+ * limited by straight or curved segments;
  * never intersect;
  * can be adjacent to each other, i.e. have a common border (in this case, the fill colors should be different, or the boundary should be clearly separated edges, so that should not be polygons that nothing prevents combine into one);
  * they have their own version of the fill (in the simplest case - the color);
- * It may be translucent (color can be specified by specifying the alpha-channel);
+ * it may be transparent (using alpha-channel in color specification);
  * can be non-convex;
  * may have "holes" (that is, the area defined by straight/curved segments, where there is no filling).
 
-In light of the fact that a polygon is a complex object, we shall describe it as a closed external contour + set of unintersected inner contours (holes).
+In light of the fact that a polygon is a complex object, we shall describe it as a closed outer contour + set of unintersected inner contours (holes).
 
 
 Subtasks
@@ -112,7 +112,7 @@ M1 = (1-t1) ^ 2 * P0 + 2 * t1 * (1-t1) * P1 + t1 ^ 2 * P2
 
 // S - the beginning of the segment, D - end;
 // parametric representation of the straight segment:
-M2 = S + (DS) * t2
+M2 = S + (D-S) * t2
 
 // rotate points P0, P1, P2, S and D by the angle a = -atan2 (Yd-Ys, Xd-Xs);
 // below are the known formulas for this rotate
