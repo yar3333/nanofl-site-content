@@ -112,7 +112,7 @@ M1 = (1-t1) ^ 2 * P0 + 2 * t1 * (1-t1) * P1 + t1 ^ 2 * P2
 
 // S - the beginning of the segment, D - end;
 // parametric representation of the straight segment:
-M2 = S + (D-S) * t2
+M2 = S + (D - S) * t2
 
 // rotate points P0, P1, P2, S and D by the angle a = -atan2 (Yd-Ys, Xd-Xs);
 // below are the known formulas for this rotate
@@ -126,7 +126,7 @@ Ym1 = (1-t1)^2 * Yp0 + 2*t1*(1-t1) * Yp1 + t1^2 * Yp2
 
 // formula of the straight segment became simpler for coordinate Y:
 Xm2 = Xs + (Xd-Xs) * t2
-Ym2 = Ys // since after the turn we have Ys = Yd
+Ym2 = Ys // since after the rotation we have Ys = Yd
 
 // M1 = M2, т.е.
 Xm1 = Xm2
@@ -137,7 +137,7 @@ Ym1 = Ym2
 (1-t1)^2*Yp0 + 2*t1*(1-t1)*Yp1 + t1^2*Yp2 = Ys
 ```
 
-Solving this quadratic equation, we find the value t1 (and there can be two). For each value of t1, as in the case of straight segments, it is necessary to make sure that it is in the range [0; 1]. Substituting the values ​​of t1 in the original (turn) the formula of the curve, we obtain the coordinates of the desired intersection points.
+Solving this quadratic equation, we find the value t1 (and there can be two). For each value of t1, as in the case of straight segments, it is necessary to make sure that it is in the range [0; 1]. Substituting the values ​​of t1 in the original (before rotation) the formula of the curve, we obtain the coordinates of the desired intersection points.
 
 
 ### Two Bezier curves ###
