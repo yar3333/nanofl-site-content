@@ -1,6 +1,15 @@
 # NanoFL IDE version history
 
 
+## Version 2.2.0 `2015-11-05`
+
+* Pasting images from clipboard.
+* Converting empty place to key frame: duplicate last key frame.
+* Clicked object detection bugfix.
+* Undo adding frames bugfix.
+* Removing temporary files bugfix.
+
+
 ## Version 2.1.0 `2015-10-23`
 
 * Add Cut/Copy/Paste into the Timeline context menu.
@@ -12,6 +21,7 @@
 * Preferences: add "check new version period" option.
 * Preferences: add "generator for new documents" option (default is CreateJS in HTML mode).
 * Linux-related bugfix (basic features are tested on Kubuntu 15/Firefox 37).
+
 
 ## Version 2.0.1 `2015-10-15`
 
