@@ -1,6 +1,21 @@
 # NanoFL IDE version history
 
 
+## Version 2.2.1 `2015-11-09`
+
+* Pasting text from clipboard into TextField bugfix.
+* Undo: convert to symbol bugfix.
+* Support "transparent" color name (selecting fully transparent color cause a error).
+* Renaming layers by F2.
+* Deselect on paste from clipboard bugfix.
+* Transform tool: white border for black dots.
+* Magnet bugfix.
+* Ignore resource files extensions case (process `*.JPG` along with `*.jpg`).
+* Transform tool: update transformation box on changing figure by properties pane (bugfix).
+* Error messages bugfix.
+* Clicked object detection bugfix+.
+
+
 ## Version 2.2.0 `2015-11-05`
 
 * Pasting images from clipboard.
