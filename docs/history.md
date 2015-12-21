@@ -1,5 +1,13 @@
 # NanoFL IDE version history
 
+## Version 2.3.0 `2015-12-21`
+
++ HTML Publisher
++ Apache Cordova Publisher
++ Optimize images & generate sounds on publish
+* Undo/redo gradient transformation bugfix
+* Menu: click on shortcut bugfix
+
 
 ## Version 2.2.1 `2015-11-09`
 

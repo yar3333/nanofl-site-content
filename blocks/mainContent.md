@@ -2,7 +2,7 @@
 
 ## Features
 
-### Version 1.x.x
+### Version 1+
 * Open and simple self-descriptive files format (`XML`)
 * [Importing from Adobe Flash Documents ](/docs/flash/) (`*.fla;*.xfl`)
 * Vector graphics (based on edges, polygons and boolean operations)
@@ -17,7 +17,7 @@
 * [CreateJS](http://createjs.com/)-based generated code (`CreateJSGenerator` plugin)
 * Plugin system (Filters, Importers, Exporters, Generators)
 
-### Version 2.0.0
+### Version 2+
 * [Scale Mode support](/docs/scaleMode/)
 * [Importing from SVG file format](/docs/svg/) (`*.svg`)
 * [Exporting into SVG file format](/docs/svg/) (`*.svg`)
@@ -26,12 +26,13 @@
 * [Batch processing](/docs/command_line/)
 * [Scripts](/docs/scripts/) support
 * Plugin system: Library Item Loaders
+* Plugin system: Publishers
+* Image & sound optimizations on publish
+* Publish into HTML
+* Publish into Apache Cordova
 
 ## Road map
 * [CreateJS generator: WebGL support (SpriteStage class)](https://bitbucket.org/nanofl/nanofl/issues/47/createjs-generator-webgl-support)
-* [Plugin system: Publishers](https://bitbucket.org/nanofl/nanofl/issues/51/plugin-system-publishers)
-* [HTML Publisher](https://bitbucket.org/nanofl/nanofl/issues/50/html-publisher)
-* [Cordova Publisher](https://bitbucket.org/nanofl/nanofl/issues/48/cordova-publisher)
 * [HTMLCompact Publisher (all resources in one html file)](https://bitbucket.org/nanofl/nanofl/issues/9/htmlcompact-publisher-all-resources-in-one)
 * [PixiJS](http://www.pixijs.com) [generator](https://bitbucket.org/nanofl/nanofl/issue/13/pixijs-support)
 * [Flash Exporter](https://bitbucket.org/nanofl/nanofl/issue/2/export-into-abode-flash-xfl-and-fla)
