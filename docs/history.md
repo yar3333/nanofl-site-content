@@ -1,5 +1,12 @@
 # NanoFL IDE version history
 
+## Version 3.0.0 `2016-01-20`
+
++ Meshes and importing from Blender
++ Blend mode (blending)
+* Flash Importer bugfixes
+* Several minor bugfixes
+
 ## Version 2.3.0 `2015-12-21`
 
 + HTML Publisher
