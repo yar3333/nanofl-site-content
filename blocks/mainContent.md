@@ -1,5 +1,3 @@
-<img src="/images/screen.png" style="border: solid 1px #ccc" />
-
 ## Features
 
 ### Version 1+
