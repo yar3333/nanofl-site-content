@@ -12,6 +12,7 @@
 	* MS Visual Studio 2013 IDE
  * HTML Publisher
  * [Cordova](http://cordova.apache.org/) Publisher
+ * [Blender](http://blender.org/) Loader
  
 <div style="height:40px">&nbsp;</div>
 
@@ -23,3 +24,4 @@
 <a href="http://www.typescriptlang.org/" target="_blank"><img src="/images/typescript.png" height="60" style="margin-top:15px" /></a>
 <a href="https://www.visualstudio.com/" target="_blank"><img src="/images/visual-studio-2013.png" height="60" style="margin-top:20px" /></a>
 <a href="http://cordova.apache.org/" target="_blank"><img src="/images/cordova.png" style="margin-top:20px; border-radius:6px; background:#bbb" /></a>
+<a href="http://blender.org/" target="_blank"><img src="/images/blender.png" style="margin-top:10px" /></a>

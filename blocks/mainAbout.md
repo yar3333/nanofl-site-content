@@ -1,4 +1,4 @@
-#Free vector and animation editor with a HTML5 backend
+#Vector and animation editor with a HTML5 backend
 
 Design animated banners, movie clips and games.
 

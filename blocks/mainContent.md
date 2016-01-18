@@ -31,12 +31,10 @@
 * Publish into HTML
 * Publish into Apache Cordova
 
-## Road map
-* [CreateJS generator: WebGL support (SpriteStage class)](https://bitbucket.org/nanofl/nanofl/issues/47/createjs-generator-webgl-support)
-* [HTMLCompact Publisher (all resources in one html file)](https://bitbucket.org/nanofl/nanofl/issues/9/htmlcompact-publisher-all-resources-in-one)
-* [PixiJS](http://www.pixijs.com) [generator](https://bitbucket.org/nanofl/nanofl/issue/13/pixijs-support)
-* [Flash Exporter](https://bitbucket.org/nanofl/nanofl/issue/2/export-into-abode-flash-xfl-and-fla)
-* [Online version of the project](https://bitbucket.org/nanofl/nanofl/issue/12/online-version-of-the-project)
+### Version 3+
+* 3D objects support (rendering via [ThreeJS](http://threejs.org/))
+* [ThreeJS](http://threejs.org/) support by CreateJS generator plugin
+* [Blender](http://blender.org/) 3D objects in the library (`*.blend`)
 
 
 ## Credits
