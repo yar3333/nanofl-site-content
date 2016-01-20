@@ -12,6 +12,14 @@ Most complex example: a logic game with a buckets of water
 <iframe src="/examples/WaterLogic-typescript/WaterLogic.html" width="520" height="390"></iframe>
 
 
+## cube
+
+Just a test of 3D
+(<a href="http://bitbucket.org/nanofl/examples/src/default/cube" target="_blank">sources</a>).
+
+<iframe src="/examples/cube/cube.html" width="550" height="200"></iframe>
+
+
 ## coloreffects
 
 Just a test of the color effects
