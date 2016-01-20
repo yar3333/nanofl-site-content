@@ -1,4 +1,4 @@
-<movieclip version="2.0.0">
+<movieclip version="2.1.0">
 	<layer name="кувшин">
 		<frame duration="101">
 			<instance libraryItem="Symbol 2" x="236.6" y="126.4" matrix="0.366912841796875,0,0,0.29022216796875" regX="55.6" regY="117.45">

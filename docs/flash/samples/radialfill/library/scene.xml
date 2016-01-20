@@ -1,4 +1,4 @@
-<movieclip version="2.0.0">
+<movieclip version="2.1.0">
 	<layer name="Label">
 		<frame>
 			<instance libraryItem="scene_1" x="154.45" y="119.95" matrix="130.7125000000004,-19.6625,10.1375,67.3625" />

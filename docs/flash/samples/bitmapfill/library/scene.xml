@@ -13,7 +13,7 @@
 					</figure>
 				</shape>
 			</group>
-			<instance libraryItem="Symbol 1" visible="true" blendMode="normal" x="74.5" y="197.5" />
+			<instance libraryItem="Symbol 1" x="74.5" y="197.5" />
 		</frame>
 	</layer>
 </movieclip>

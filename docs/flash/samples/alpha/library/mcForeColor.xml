@@ -1,4 +1,4 @@
-<movieclip version="2.0.0">
+<movieclip version="2.1.0">
 	<layer name="Layer 1">
 		<frame>
 			<instance libraryItem="bottleMask" x="-1.5" y="-38.4" regX="19.5" regY="33.75" />

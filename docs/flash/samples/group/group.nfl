@@ -1,4 +1,4 @@
-<nanofl version="2.0.0">
+<nanofl version="2.1.0">
 	<param name="width" value="520" />
 	<param name="height" value="390" />
 	<param name="backgroundColor" value="#999999" />
