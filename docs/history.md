@@ -1,5 +1,10 @@
 # NanoFL IDE version history
 
+## Version 3.0.1 `2016-01-22`
+
+* Shapes union bugfixes
+* Automatic bug reports fix
+
 ## Version 3.0.0 `2016-01-20`
 
 + Meshes and importing from Blender
