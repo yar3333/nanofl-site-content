@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ_INFO>
+  <MASTER_PAD_VERSION_INFO>
+    <MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
+    <MASTER_PAD_EDITOR>RoboSoft 4.0.789</MASTER_PAD_EDITOR>
+    <MASTER_PAD_EDITOR_URL>http://robosoft.rudenko.com</MASTER_PAD_EDITOR_URL>
+    <MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+  </MASTER_PAD_VERSION_INFO>
+  <RoboSoft>
+    <Company_UIN>CMP-0101168DE1F</Company_UIN>
+    <Company_Description></Company_Description>
+    <Product_UIN>APP-010116EC5F5</Product_UIN>
+    <Publish_on_CD>FALSE</Publish_on_CD>
+    <Search_String>NanoFL Editor</Search_String>
+    <RSProductType></RSProductType>
+    <Press_Release_Search_String></Press_Release_Search_String>
+    <NewsFeed_Search_String></NewsFeed_Search_String>
+    <Search_Engine_Search_String></Search_Engine_Search_String>
+    <Web_Directories_Search_String></Web_Directories_Search_String>
+    <Search_String_Unique></Search_String_Unique>
+    <Comments_For_Reviewer></Comments_For_Reviewer>
+    <Backlink></Backlink>
+  </RoboSoft>
+  <Company_Info>
+    <Company_Name>NanoFL Software</Company_Name>
+    <Address_1></Address_1>
+    <Address_2></Address_2>
+    <City_Town></City_Town>
+    <State_Province></State_Province>
+    <Zip_Postal_Code></Zip_Postal_Code>
+    <Country></Country>
+    <Company_WebSite_URL></Company_WebSite_URL>
+    <Contact_Info>
+      <Contact_First_Name></Contact_First_Name>
+      <Contact_Last_Name></Contact_Last_Name>
+      <Contact_Email></Contact_Email>
+      <Author_First_Name></Author_First_Name>
+      <Author_Last_Name></Author_Last_Name>
+      <Author_Email></Author_Email>
+    </Contact_Info>
+    <Support_Info>
+      <Sales_Email></Sales_Email>
+      <Support_Email></Support_Email>
+      <General_Email></General_Email>
+      <Sales_Phone></Sales_Phone>
+      <Support_Phone></Support_Phone>
+      <General_Phone></General_Phone>
+      <Fax_Phone></Fax_Phone>
+    </Support_Info>
+    <GooglePlusPage></GooglePlusPage>
+    <LinkedinPage></LinkedinPage>
+    <TwitterCompanyPage></TwitterCompanyPage>
+    <FacebookCompanyPage></FacebookCompanyPage>
+    <CompanyStorePage></CompanyStorePage>
+  </Company_Info>
+  <Site>
+    <Site_FORM>Y</Site_FORM>
+    <Site_VERSION>1.0</Site_VERSION>
+    <Site_URL>http://Submit-Everywhere.com/extensions/Site.htm</Site_URL>
+    <Site_DESCRIPTION>This PAD extension allows you to add your site info into your PAD file. This info can be used by site submission software or by web directories themselves.</Site_DESCRIPTION>
+    <Site_Site_Title>NanoFL vector and animation editor</Site_Site_Title>
+    <Site_Site_URL>http://nanofl.com/</Site_Site_URL>
+    <Site_Description_100>Design animated banners, movie clips and games.</Site_Description_100>
+    <Site_Description_250>Design animated banners, movie clips and games. Add interactivity with JavaScript, TypeScript or Haxe.</Site_Description_250>
+    <Site_Description_450>Design animated banners, movie clips and games. Add interactivity with JavaScript, TypeScript or Haxe. Any customizations of the result html/js are allowed.</Site_Description_450>
+    <Site_Keywords>flash, gamedev, animation, vector editor</Site_Keywords>
+    <Site_Contact_Email></Site_Contact_Email>
+    <Site_Contact_First_Name></Site_Contact_First_Name>
+    <Site_Contact_Last_Name></Site_Contact_Last_Name>
+  </Site>
+  <PAD_Certification_Promotion>
+    <Apply_For_Certification>N</Apply_For_Certification>
+  </PAD_Certification_Promotion>
+  <Dynamic_PAD>
+    <Dynamic_Distributive>N</Dynamic_Distributive>
+  </Dynamic_PAD>
+  <Program_Info>
+    <Program_Name>NanoFL Editor</Program_Name>
+    <Program_Version>3.0.1</Program_Version>
+    <Program_Release_Month>01</Program_Release_Month>
+    <Program_Release_Day>22</Program_Release_Day>
+    <Program_Release_Year>2016</Program_Release_Year>
+    <Program_Cost_Dollars>79</Program_Cost_Dollars>
+    <Program_Type>Shareware</Program_Type>
+    <Program_Release_Status>Major Update</Program_Release_Status>
+    <Program_Install_Support>Install and Uninstall</Program_Install_Support>
+    <Program_OS_Support>WinXP,WinVista,WinVista x64,Win7 x32,Win7 x64,Win2000,Windows2000,Windows2003,Windows Vista Ultimate,Windows Vista Ultimate x64,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vista Business x64,Windows Vista Enterprise x64,Windows 8,Windows Server 2012</Program_OS_Support>
+    <Program_Language>English</Program_Language>
+    <Program_Change_Info>Shapes union bugfix. Automatic bug reports fix.</Program_Change_Info>
+    <Program_System_Requirements>CPU 1Ghz, RAM 4Gb, HDD 100 Mb</Program_System_Requirements>
+    <Program_Category_Class>Graphic Apps::Editors</Program_Category_Class>
+    <File_Info>
+      <File_Size_Bytes>47092736</File_Size_Bytes>
+      <File_Size_K>45989</File_Size_K>
+      <File_Size_MB>44.91</File_Size_MB>
+      <Filename_Versioned></Filename_Versioned>
+      <Filename_Previous></Filename_Previous>
+      <Filename_Generic></Filename_Generic>
+      <Filename_Long></Filename_Long>
+    </File_Info>
+    <Expire_Info>
+      <Has_Expire_Info>N</Has_Expire_Info>
+      <Expire_Based_On>Days</Expire_Based_On>
+      <Expire_Count></Expire_Count>
+      <Expire_Other_Info></Expire_Other_Info>
+      <Expire_Month></Expire_Month>
+      <Expire_Day></Expire_Day>
+      <Expire_Year></Expire_Year>
+    </Expire_Info>
+    <Program_Categories>Gamedev,Flash,Animation,Graphics</Program_Categories>
+    <Limitations>Stops working after 30 days.</Limitations>
+    <Program_Cost_Other_Code></Program_Cost_Other_Code>
+    <Program_Cost_Other></Program_Cost_Other>
+    <Awards></Awards>
+    <Program_Specific_Category></Program_Specific_Category>
+    <Includes_JAVA_VM></Includes_JAVA_VM>
+    <Includes_VB_Runtime></Includes_VB_Runtime>
+    <Includes_DirectX></Includes_DirectX>
+    <FacebookProductPage></FacebookProductPage>
+    <GooglePlusProductPage></GooglePlusProductPage>
+  </Program_Info>
+  <Web_Info>
+    <Application_URLs>
+      <Application_Info_URL>http://nanofl.com/</Application_Info_URL>
+      <Application_Order_URL>http://nanofl.com/register/</Application_Order_URL>
+      <Application_Screenshot_URL>http://nanofl.com/images/screens/waterlogic.png</Application_Screenshot_URL>
+      <Application_Icon_URL>http://nanofl.com/images/logos/logo-32.gif</Application_Icon_URL>
+      <Application_XML_File_URL>http://nanofl.com/downloads/nanofl-3.0.1.xml</Application_XML_File_URL>
+    </Application_URLs>
+    <Download_URLs>
+      <Primary_Download_URL>http://nanofl.com/downloads/nanofl-3.0.1.exe</Primary_Download_URL>
+      <Secondary_Download_URL></Secondary_Download_URL>
+      <Additional_Download_URL_1></Additional_Download_URL_1>
+      <Additional_Download_URL_2></Additional_Download_URL_2>
+    </Download_URLs>
+  </Web_Info>
+  <Permissions>
+    <Distribution_Permissions>The trial version of MySoftware can be freely distributed over the internet in an unchaged form.</Distribution_Permissions>
+    <EULA></EULA>
+  </Permissions>
+  <AppStore>
+    <AppStore_AppID></AppStore_AppID>
+    <AppStore_Category></AppStore_Category>
+    <AppStore_Info_URL></AppStore_Info_URL>
+    <AppStore_Download_URL></AppStore_Download_URL>
+    <AppStore_Promo_Code_1></AppStore_Promo_Code_1>
+    <AppStore_Promo_Code_2></AppStore_Promo_Code_2>
+    <AppStore_Promo_Code_3></AppStore_Promo_Code_3>
+    <AppStore_Supported_Devices></AppStore_Supported_Devices>
+    <AppStore_Other_Applications></AppStore_Other_Applications>
+    <AppStore_Advantages_And_Unique_Features></AppStore_Advantages_And_Unique_Features>
+    <AppStore_Awards_And_Ratings></AppStore_Awards_And_Ratings>
+  </AppStore>
+  <Program_Descriptions>
+    <English>
+      <Keywords>flash, gamedev, animation, vector editor</Keywords>
+      <Char_Desc_45>Vector and animation HTML5-editor.</Char_Desc_45>
+      <Char_Desc_80>Vector and animation HTML5-editor. Design animated banners and games.</Char_Desc_80>
+      <Char_Desc_250>Vector and animation HTML5-editor. Design animated banners, movie clips and games. Add interactivity with JavaScript, TypeScript or Haxe.</Char_Desc_250>
+      <Char_Desc_450>Vector and animation HTML5-editor. Design animated banners, movie clips and games. Add interactivity with JavaScript, TypeScript or Haxe. Any customizations of the result html/js are allowed.</Char_Desc_450>
+      <Char_Desc_2000>Vector and animation graphics editor with HTML5-backend. Design animated banners, movie clips and games. Use 2D or 3D objects to make your show. Add interactivity with JavaScript, TypeScript or Haxe. Any customizations of the result html/js are allowed. Write application with your favorite framework (like JQuery). Use Cordova to support mobile platform - feel yourself free! Importing from Flash (3D) and Blender (3D) are supported. NanoFL has also SVG editing feature: importing and exporting are supported.</Char_Desc_2000>
+    </English>
+  </Program_Descriptions>
+</XML_DIZ_INFO>
