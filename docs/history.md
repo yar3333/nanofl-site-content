@@ -1,9 +1,10 @@
-# NanoFL IDE version history
+# NanoFL Editor version history
 
 ## Version 3.0.1 `2016-01-22`
 
 * Shapes union bugfixes
 * Automatic bug reports fix
+
 
 ## Version 3.0.0 `2016-01-20`
 
@@ -11,6 +12,7 @@
 + Blend mode (blending)
 * Flash Importer bugfixes
 * Several minor bugfixes
+
 
 ## Version 2.3.0 `2015-12-21`
 
