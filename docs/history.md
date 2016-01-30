@@ -1,5 +1,16 @@
 # NanoFL Editor version history
 
+## Version 3.0.2 `2016-01-31`
+
++ Mesh in library: rendering canvas size
++ Mesh properties: camera field of view (FOV)
++ Mesh properties: ambiend and directional lights
+* Blender: import textures bugfix
+* Undo: motion tween properties bugfix
++ GUI: rotation property
+* GUI: sliders improvements
+* Code generation: several bugfixes
+
 ## Version 3.0.1 `2016-01-22`
 
 * Shapes union bugfixes
