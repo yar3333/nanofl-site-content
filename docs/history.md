@@ -1,5 +1,10 @@
 # NanoFL Editor version history
 
+## Version 3.0.3 `2016-02-01`
+
+* GUI: property panes overflow bugfix
+
+
 ## Version 3.0.2 `2016-01-31`
 
 + Mesh in library: rendering canvas size
