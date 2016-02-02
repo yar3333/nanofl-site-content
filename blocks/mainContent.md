@@ -45,3 +45,4 @@
 
 ## Articles
 * [Calculate vector shapes union. Part 1](/docs/articles/combine_shapes_1/)
+* [Calculate vector shapes union. Part 2](/docs/articles/combine_shapes_2/)
