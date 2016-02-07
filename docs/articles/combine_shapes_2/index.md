@@ -99,14 +99,14 @@ The problem is being well solved directly:
 4. In an bottom image we take a fill in this point (i.e. we are looking for the polygon to which it belongs) and, if such a polygon is found, add an outer contour+"holes" as a new polygon to an array of the found polygons for an original image.
 5. Do the same for a top image (we look for the polygon to which the point belongs and, if it is found, we add a new polygon to an array of the found for a top image).
 
-In this way we "reconstruct" an bottom and top image after an intersection of all segments.
+In this way we "reconstruct" an bottom and top images after an intersection of all segments.
 We were guaranteed, in addition, to have now as each of the polygons of a bottom image coinciding with
 the same polygon of an top image (in a sense of coordinates) or lies outside of all its polygons.
 
 I think it is worth to pay special attention about point 3.
 How to take a good point inside a contour beyond boundaries of its inner contours?
-First of all, we need to understand the point then lies inside a range
-when a ray let out from it in any direction crosses by segments of a range for an odd number of times.
+First of all, we need to understand the point then lies inside a polygon
+when a ray let out from it in any direction crosses by segments of a polygon for an odd number of times.
 And everything is good, but that's due to the limited accuracy of calculations beam can get in the connection lines,
 which may cause incidents (detection of intersections with the two segments,
 or with one or with none at all). Most often for simplification of computations the ray is let out horizontally.
@@ -116,8 +116,7 @@ Even we will also do. That is what we now know about the good point:
 * it must not coincide with any of the ends of segments of polygon's contours;
 * for the point to, desirably, lie far from segments to decrease probability of problems related to detection of intersections of a ray let out from it with these segments.
 
-<img src="7.png" align="left" />
-The following search of the `y` coordinate algorithm comes into the mind for such a point:
+<img src="7.png" align="left" />The following search of the <code>y</code> coordinate algorithm comes into the mind for such a point:
 
 1. Fill the array by the `y` coordinates of ends of segments forming polygon.
 2. <img src="8.png" align="right" />Adds a `minY` and `maxY` of our outer contour (since these values do not always coincide with the values at the ends of the segments - see figure at the right).
@@ -140,7 +139,7 @@ The received algorithm is not ideal, but simple enough and, as practice shows, w
 The final steps
 ---------------
 
-In the framework of an article we will not consider in detail remaining points of an image join search algorithm:
+In this article we will not consider in detail remaining steps of the images union algorithm:
 
 * removal of all the edges of an original image which entirely lies inside filled areas of the top image;
 * deletion from an bottom image all polygons of availability in an top image without consideration of color;
