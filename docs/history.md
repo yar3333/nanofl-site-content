@@ -1,5 +1,14 @@
 # NanoFL Editor version history
 
+## Version 3.0.4 `2016-02-10`
+
+* Mesh in the Library: load lights property
+* WebGL major speed optimizations
+* Editor speed optimizations
+* Cordova publisher critical bugfixes
+* GUI: context menu overlapping bugfix
+
+
 ## Version 3.0.3 `2016-02-01`
 
 * GUI: property panes overflow bugfix
@@ -7,12 +16,12 @@
 
 ## Version 3.0.2 `2016-01-31`
 
-+ Mesh in library: rendering canvas size
-+ Mesh properties: camera field of view (FOV)
-+ Mesh properties: ambiend and directional lights
+* Mesh in library: rendering canvas size
+* Mesh properties: camera field of view (FOV)
+* Mesh properties: ambiend and directional lights
 * Blender: import textures bugfix
 * Undo: motion tween properties bugfix
-+ GUI: rotation property
+* GUI: rotation property
 * GUI: sliders improvements
 * Code generation: several bugfixes
 
@@ -24,17 +33,17 @@
 
 ## Version 3.0.0 `2016-01-20`
 
-+ Meshes and importing from Blender
-+ Blend mode (blending)
+* Meshes and importing from Blender
+* Blend mode (blending)
 * Flash Importer bugfixes
 * Several minor bugfixes
 
 
 ## Version 2.3.0 `2015-12-21`
 
-+ HTML Publisher
-+ Apache Cordova Publisher
-+ Optimize images & generate sounds on publish
+* HTML Publisher
+* Apache Cordova Publisher
+* Optimize images & generate sounds on publish
 * Undo/redo gradient transformation bugfix
 * Menu: click on shortcut bugfix
 
