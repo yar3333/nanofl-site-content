@@ -1,5 +1,12 @@
 # NanoFL Editor version history
 
+## Version 3.0.5 `2016-03-27`
+
+* Output Panel
+* Arrange plugins files
+* Minor bugfixes
+
+
 ## Version 3.0.4 `2016-02-10`
 
 * Mesh in the Library: load lights property
