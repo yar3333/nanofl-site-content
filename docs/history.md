@@ -1,5 +1,11 @@
 # NanoFL Editor version history
 
+## Version 4.0.0 `2016-09-21`
+
+* Haxe source code editor
+* Major UI improvements
+
+
 ## Version 3.0.5 `2016-03-27`
 
 * Output Panel

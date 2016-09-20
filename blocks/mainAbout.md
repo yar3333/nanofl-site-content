@@ -2,10 +2,10 @@
 
 Design animated banners, movie clips and games.
 
-Add interactivity with [JavaScript](https://www.javascript.com/), [TypeScript](http://www.typescriptlang.org/) or [Haxe](http://haxe.org/).
+Add interactivity with a [Haxe](http://haxe.org/) language.
 
-Any customizations of the result html/js are allowed.
+Use internal 2D editor and [Blender](http://blender.org/) for 3D object.
+
+Feel the power of the [CreateJS](http://createjs.com/) framework for 2D
 	
-Write application with your favorite framework (like <a href="http://jquery.com/" target="_blank">JQuery</a>).
-
-Use <a href="http://cordova.apache.org/" target="_blank">Cordova</a> to support mobile platform - feel yourself free!
+and [ThreeJS](http://threejs.org/) for 3D objects.
