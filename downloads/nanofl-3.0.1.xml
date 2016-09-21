@@ -94,23 +94,23 @@
   </Dynamic_PAD>
   <Program_Info>
     <Program_Name>NanoFL Editor</Program_Name>
-    <Program_Version>3.0.4</Program_Version>
-    <Program_Release_Month>01</Program_Release_Month>
-    <Program_Release_Day>22</Program_Release_Day>
+    <Program_Version>4.0.0</Program_Version>
+    <Program_Release_Month>09</Program_Release_Month>
+    <Program_Release_Day>21</Program_Release_Day>
     <Program_Release_Year>2016</Program_Release_Year>
-    <Program_Cost_Dollars>79</Program_Cost_Dollars>
-    <Program_Type>Shareware</Program_Type>
+    <Program_Cost_Dollars>0</Program_Cost_Dollars>
+    <Program_Type>Freeware</Program_Type>
     <Program_Release_Status>Major Update</Program_Release_Status>
     <Program_Install_Support>Install and Uninstall</Program_Install_Support>
     <Program_OS_Support>WinXP,WinVista,WinVista x64,Win7 x32,Win7 x64,Win2000,Windows2000,Windows2003,Windows Vista Ultimate,Windows Vista Ultimate x64,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vista Business x64,Windows Vista Enterprise x64,Windows 8,Windows Server 2012</Program_OS_Support>
     <Program_Language>English</Program_Language>
-    <Program_Change_Info>Shapes union bugfix. Automatic bug reports fix.</Program_Change_Info>
+    <Program_Change_Info>Haxe source code editor inside.</Program_Change_Info>
     <Program_System_Requirements>CPU 1Ghz, RAM 4Gb, HDD 100 Mb</Program_System_Requirements>
     <Program_Category_Class>Graphic Apps::Editors</Program_Category_Class>
     <File_Info>
-      <File_Size_Bytes>47092736</File_Size_Bytes>
-      <File_Size_K>45989</File_Size_K>
-      <File_Size_MB>44.91</File_Size_MB>
+      <File_Size_Bytes>52772554</File_Size_Bytes>
+      <File_Size_K>52772</File_Size_K>
+      <File_Size_MB>52</File_Size_MB>
       <Filename_Versioned></Filename_Versioned>
       <Filename_Previous></Filename_Previous>
       <Filename_Generic></Filename_Generic>
@@ -146,7 +146,7 @@
       <Application_XML_File_URL>http://nanofl.com/downloads/nanofl-3.0.1.xml</Application_XML_File_URL>
     </Application_URLs>
     <Download_URLs>
-      <Primary_Download_URL>http://nanofl.com/downloads/nanofl-3.0.4.exe</Primary_Download_URL>
+      <Primary_Download_URL>http://nanofl.com/downloads/nanofl-4.0.0.exe</Primary_Download_URL>
       <Secondary_Download_URL></Secondary_Download_URL>
       <Additional_Download_URL_1></Additional_Download_URL_1>
       <Additional_Download_URL_2></Additional_Download_URL_2>
