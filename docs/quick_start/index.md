@@ -35,9 +35,9 @@ Let convert our object to symbol. Select all by pressing **Ctrl+A** and press **
 Graphics part are done. Now, right click on the **MainButton** symbol in the Library and select **Open Code**.
 
 ##Haxe code
-Add **onMouseDown** method into **MainButtonClass.hx**:
+Add **onMouseDown** method into **MainButton** class:
 ```
-class MainButtonClass extends base.MainButtonClass
+class MainButton extends base.MainButton
 {
 	override function onMouseDown(e:createjs.MouseEvent)
 	{
