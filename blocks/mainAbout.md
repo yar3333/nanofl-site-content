@@ -4,7 +4,7 @@ Design animated banners, movie clips and games.
 
 Add interactivity with a [Haxe](http://haxe.org/) language.
 
-Use internal 2D editor and [Blender](http://blender.org/) for 3D object.
+Use internal 2D editor and [Blender](http://blender.org/).
 
 Feel the power of the [CreateJS](http://createjs.com/) framework for 2D
 	
