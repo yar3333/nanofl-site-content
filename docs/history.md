@@ -1,5 +1,26 @@
 # NanoFL Editor version history
 
+
+## Version 4.0.3 `2016-10-10`
+
+* Library item name to default class name bugfix
+* Copy all library files on SaveAs bugfix
+* Main menu in "no opened documents" mode bugfixes
+
+
+## Version 4.0.2 `2016-09-28`
+
+* Autocompletion bugfix
+* Shortcuts bugfix
+
+
+## Version 4.0.1 `2016-09-23`
+
+* Compiler running bugfixes
+* Shortcuts in editor mode bugfix
+* Property panels collapsing bugfix
+
+
 ## Version 4.0.0 `2016-09-21`
 
 * Haxe source code editor
