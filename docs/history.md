@@ -1,5 +1,12 @@
 # NanoFL Editor version history
 
+## Version 4.1.0 `2017-06-08`
+
+* Major improvements related to 3D objects
+* Share for Devices: click "Publish" and look at your app on Android
+* Upgrade haxe to version 3.4.2
+* Upgrade three.js to version r86
+
 
 ## Version 4.0.3 `2016-10-10`
 
