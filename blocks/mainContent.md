@@ -6,7 +6,7 @@
 
 
 ## Features
-* [Share for Devices](/docs/share_for_devices/): test your application on Android device with no work
+* [Share for Devices](/docs/share_for_devices/): test your application on Android device
 * Vector graphics (based on edges, polygons and boolean operations)
 * Raster images in the Library and on the Scene (`png`/`jpeg`, rasterized `svg`)
 * Layers: groups, masks, tweens, guides
