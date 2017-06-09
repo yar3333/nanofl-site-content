@@ -17,4 +17,4 @@ Application on your device will be reloaded after each **Publish** or **Test**.
 
 ----------------------------------------------------------------------------------------------------
 
-<a href="https://bitbucket.org/nanofl/site/src/default/docs/quick_start/index.md" target="_blank">Edit this page at bitbucket</a>
+<a href="https://bitbucket.org/nanofl/site/src/default/docs/share_for_devices/index.md" target="_blank">Edit this page at bitbucket</a>
