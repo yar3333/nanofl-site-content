@@ -1,6 +1,6 @@
 # NanoFL Editor version history
 
-## Version 4.1.0 `2017-06-08`
+## Version 4.1.0 `2017-06-09`
 
 * Major improvements related to 3D objects
 * Share for Devices: click "Publish" and look at your app on Android
