@@ -1,9 +1,5 @@
 # NanoFL Editor version history
 
-## Version 4.1.1 `2017-06-12`
-
-* Major bugfixes
-
 
 ## Version 4.1.0 `2017-06-09`
 
