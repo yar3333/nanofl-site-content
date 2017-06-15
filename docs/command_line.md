@@ -26,7 +26,7 @@ Options sequence is important: NanoFL process options consecutive from the first
 * `-resize-fit <width>x<height>` - Resize document to fit specified size. `<width>` or `<height>` can be ommited.
 * `-generator <name>,<param1>=<value1>,<param2>=<value2>...` - Set document's generator and its parameters.
 * `-scaleMode <mode>` - Set document's [scale mode](/docs/scaleMode/) (`noScale`, `fit`, `fill`, `stretch` and `custom` are supported). Default is `noScale`.
-* `-script <js code>` - Run specified js code. See [scripts](/docs/scripts/).
+* `-script <inline_js_code>` - Evalute specified js code. See [scripts](/docs/scripts/).
 * `-fps` - Show frames per second HUD.
 * `-jsconsole` - Show debug console.
 
